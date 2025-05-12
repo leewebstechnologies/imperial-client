@@ -76,7 +76,7 @@ const Ils = () => {
           </div>
         </div>
       </section>
-      <Apply />
+      {/* <Apply /> */}
     </>
   );
 };

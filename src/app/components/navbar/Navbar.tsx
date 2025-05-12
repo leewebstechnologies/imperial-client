@@ -116,16 +116,16 @@ const Navbar = () => {
                           <Link href="/admission">Admission Procedure</Link>
                         </li>
                         <li>
-                          <Link href="/entrance">Tuition & Payment</Link>
+                          <Link href="/tuition">Tuition & Payment</Link>
                         </li>
                         <li>
                           <Link href="/entrance">Entrance Exam</Link>
                         </li>
                         <li>
-                          <Link href="/entrance">Scholarship / Discount</Link>
+                          <Link href="/discount">Scholarship / Discount</Link>
                         </li>
                         <li>
-                          <Link href="/entrance">
+                          <Link href="/application">
                             Application Form / Requirement
                           </Link>
                         </li>

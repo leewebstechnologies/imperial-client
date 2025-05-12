@@ -1,11 +1,16 @@
 /* styles/Admissions.module.css */
+.admissionContainer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 100vh;
 
+}
 .admission {
   max-width: 900px;
-  margin: 50px auto;
+  margin: 0px auto 10px auto;
   padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fdfdfd;
+  background-color: #f1f1f1;
 }
 
 .admissionTitle {
@@ -30,8 +35,8 @@
 
 .step {
   padding: 1rem;
-  border-left: 5px solid #3498db;
-  background: #f4f9ff;
+  border-left: 5px solid #960466;
+  background: #ffc600;
   border-radius: 5px;
 }
 
