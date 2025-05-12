@@ -1,24 +1,28 @@
 import "./apply.css";
+import Link from "next/link";
 
 const Apply = () => {
   return (
-    <section id="apply-aprt" className="pb-120">
+    <section
+      id="apply-aprt"
+      className="pb-120"
+      style={{ background: "#ffc600" }}
+    >
       <div className="container">
         <div className="apply">
           <div className="row no-gutters">
             <div className="col-lg-6">
               <div className="apply-cont apply-color-1">
-                <h3>Apply for fall 2019</h3>
+                <h3>Apply for fall 2025</h3>
                 <p>
                   Gravida nibh vel velit auctor aliquetn sollicitudirem sem
                   quibibendum auci elit cons equat ipsutis sem nibh id elituis
                   sed odio sit amet nibh vulputate cursus equat ipsutis.
                 </p>
-                <a href="#" className="main-btn">
+                <Link href="/contact" className="main-btn">
                   Apply Now
-                </a>
-              </div>{" "}
-              {/* apply cont */}
+                </Link>
+              </div>
             </div>
             <div className="col-lg-6">
               <div className="apply-cont apply-color-2">
@@ -28,17 +32,14 @@ const Apply = () => {
                   quibibendum auci elit cons equat ipsutis sem nibh id elituis
                   sed odio sit amet nibh vulputate cursus equat ipsutis.
                 </p>
-                <a href="#" className="main-btn">
+                <Link href="/contact" className="main-btn">
                   Apply Now
-                </a>
-              </div>{" "}
-              {/* apply cont */}
+                </Link>
+              </div>
             </div>
           </div>
-        </div>{" "}
-        {/* row */}
-      </div>{" "}
-      {/* container */}
+        </div>
+      </div>
     </section>
   );
 };

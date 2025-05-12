@@ -4,7 +4,7 @@ import "./ils.css";
 const Ils = () => {
   return (
     <>
-      <section id="about-page" className="pt-70 pb-110">
+      <section id="about-page" className="pt-70 pb-110" style={{ background: "#f1f1f1" }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-5">

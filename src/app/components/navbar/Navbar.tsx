@@ -3,34 +3,6 @@ import "./navbar.css";
 import Image from "next/image";
 import logo from "../../images/logo1.png";
 
-// const links = [
-//   {
-//     id: 1,
-//     title: "Home",
-//     url: "/",
-//   },
-//   {
-//     id: 2,
-//     title: "About",
-//     url: "/about",
-//   },
-//   {
-//     id: 3,
-//     title: "Projects",
-//     url: "/projects",
-//   },
-//   {
-//     id: 4,
-//     title: "Blog",
-//     url: "/blog",
-//   },
-//   {
-//     id: 5,
-//     title: "Contact",
-//     url: "/contact",
-//   },
-// ];
-
 const Navbar = () => {
   return (
     <header id="header-part">
@@ -48,10 +20,6 @@ const Navbar = () => {
                       Ogun State.
                     </span>
                   </li>
-                  {/* <li>
-                    <img src="images/all-icon/email.png" alt="icon" />
-                    <span>info@yourmail.com</span>
-                  </li> */}
                 </ul>
               </div>
             </div>
@@ -142,15 +110,10 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/admission">Admission</Link>
+                      <Link href="#">Admission</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link className="active" href="/why">
-                            Why Choose ILS?
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/entrance">Admission Procedure</Link>
+                          <Link href="/admission">Admission Procedure</Link>
                         </li>
                         <li>
                           <Link href="/entrance">Tuition & Payment</Link>

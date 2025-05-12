@@ -48,8 +48,9 @@ display: block;
 }
 .category-slied .slick-arrow {
 position: absolute;
-top: 50%;
-right: -590px;
+margin-left: 50px;
+top: 120%;
+right: -50px;
 -webkit-transform: translateY(-50%);
 transform: translateY(-50%);
 }

@@ -114,7 +114,8 @@ const Contact = () => {
                     </div>
                     <div className="cont">
                       <p>
-                        143 castle road 517 district, kiyev port south Canada
+                        Plot 8 Great Imperial Estate, Off Miracle Avenue,
+                        Magboro, Ogun State.
                       </p>
                     </div>
                   </div>{" "}
@@ -126,8 +127,9 @@ const Contact = () => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="cont">
-                      <p>+3 123 456 789</p>
-                      <p>+1 222 345 342</p>
+                      <p>08139604432</p>
+                      <p>07074681927</p>
+                      <p>09060006230</p>
                     </div>
                   </div>{" "}
                   {/* singel address */}
@@ -138,8 +140,7 @@ const Contact = () => {
                       <i className="fa fa-envelope-o" />
                     </div>
                     <div className="cont">
-                      <p>info@yourmail.com</p>
-                      <p>info@yourmail.com</p>
+                      <p>info@imperiallegacy.com</p>
                     </div>
                   </div>{" "}
                   {/* singel address */}

@@ -158,8 +158,7 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>{" "}
-              {/* support */}
+              </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="footer-address mt-40">
@@ -173,7 +172,8 @@ const Footer = () => {
                     </div>
                     <div className="cont">
                       <p>
-                        143 castle road 517 district, kiyev port south Canada
+                        Plot 8 Great Imperial Estate, Off Miracle Avenue,
+                        Magboro, Ogun State.
                       </p>
                     </div>
                   </li>
@@ -182,7 +182,7 @@ const Footer = () => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="cont">
-                      <p>+3 123 456 789</p>
+                      <p>08139604432, 07074681927, 09060006230</p>
                     </div>
                   </li>
                   <li>
@@ -190,19 +190,16 @@ const Footer = () => {
                       <i className="fa fa-envelope-o" />
                     </div>
                     <div className="cont">
-                      <p>info@yourmail.com</p>
+                      <p>info@imperiallegacy.com</p>
                     </div>
                   </li>
                 </ul>
-              </div>{" "}
-              {/* footer address */}
+              </div>
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>
     </footer>
   );
-}
-export default Footer
-
-
+};
+export default Footer;

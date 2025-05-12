@@ -5,150 +5,13 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Category from "./components/category/Category";
 import Ils from "./ils/page";
+import Hero from "./components/hero/Hero";
 
 export default function Home() {
   return (
     <>
-      <section id="slider-part" className="slider-active">
-        <div
-          className="single-slider bg_cover pt-150"
-          style={{ backgroundImage: "url(images/slider/s-1.jpg)" }}
-          data-overlay={4}
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-7 col-lg-9">
-                <div className="slider-cont">
-                  <h1 data-animation="bounceInLeft" data-delay="1s">
-                    CONDUCIVE ENVIRONMENT FOR LEARNING
-                  </h1>
-                  <p data-animation="fadeInUp" data-delay="1.3s">
-                    Our classrooms and study areas are very conducive for
-                    learning.
-                  </p>
-                  <ul>
-                    <li>
-                      <Link
-                        data-animation="fadeInUp"
-                        data-delay="1.6s"
-                        className="main-btn"
-                        href="/ils"
-                      >
-                        Read More
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        data-animation="fadeInUp"
-                        data-delay="1.9s"
-                        className="main-btn main-btn-2"
-                        href="/contact"
-                      >
-                        Get Started
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="single-slider bg_cover pt-150"
-          style={{ backgroundImage: "url(images/slider/s-2.jpg)" }}
-          data-overlay={4}
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-7 col-lg-9">
-                <div className="slider-cont">
-                  <h1 data-animation="bounceInLeft" data-delay="1s">
-                    Choose the right education for your child
-                  </h1>
-                  <p data-animation="fadeInUp" data-delay="1.3s">
-                    The Imperial Legacy School programme is adapted from the
-                    curriculum guide for the United Kingdom Foundation Stage.
-                  </p>
-                  <ul>
-                    <li>
-                      <Link
-                        data-animation="fadeInUp"
-                        data-delay="1.6s"
-                        className="main-btn"
-                        href="/ils"
-                      >
-                        Read More
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        data-animation="fadeInUp"
-                        data-delay="1.9s"
-                        className="main-btn main-btn-2"
-                        href="/contact"
-                      >
-                        Get Started
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="single-slider bg_cover pt-150"
-          style={{ backgroundImage: "url(images/slider/s-3.jpg)" }}
-          data-overlay={4}
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-7 col-lg-9">
-                <div className="slider-cont">
-                  <h1 data-animation="bounceInLeft" data-delay="1s">
-                    2025/2026 ENROLMENT
-                  </h1>
-                  <p data-animation="fadeInUp" data-delay="1.3s">
-                    Children may join Imperial Legacy School at any time during
-                    the academic year and do not have to wait until the start of
-                    each term.
-                  </p>
-                  <ul>
-                    <li>
-                      <Link
-                        data-animation="fadeInUp"
-                        data-delay="1.6s"
-                        className="main-btn"
-                        href="/ils"
-                      >
-                        Read More
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        data-animation="fadeInUp"
-                        data-delay="1.9s"
-                        className="main-btn main-btn-2"
-                        href="#"
-                      >
-                        Get Started
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>{" "}
-            {/* row */}
-          </div>{" "}
-          {/* container */}
-        </div>{" "}
-        {/* single slider */}
-      </section>
+      <Hero />
       <Category />
-
- 
-      {/*====== APPLY PART ENDS ======*/}
-      {/*====== COURSE PART START ======*/}
       <section id="course-part" className="pt-115 pb-120 gray-bg">
         <div className="container">
           <div className="row">
@@ -156,8 +19,7 @@ export default function Home() {
               <div className="section-title pb-45">
                 <h5>Our course</h5>
                 <h2>Featured courses </h2>
-              </div>{" "}
-              {/* section title */}
+              </div>       
             </div>
           </div>{" "}
           {/* row */}
@@ -605,10 +467,10 @@ export default function Home() {
                   a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio
                   tincidunt mauris
                 </p>
-                <a href="#" className="main-btn mt-55">
+                <Link href="/careers" className="main-btn mt-55">
                   Career with us
-                </a>
-              </div>{" "}
+                </Link>
+              </div>
               {/* teachers cont */}
             </div>
             <div className="col-lg-6 offset-lg-1">

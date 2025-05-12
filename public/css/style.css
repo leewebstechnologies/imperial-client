@@ -145,7 +145,7 @@ p {
     font-weight: 700;
 	line-height: 50px;
 	border-radius: 5px;
-    color: #07294d;
+    color: #000;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -156,8 +156,8 @@ p {
 }
 .main-btn:hover{
     color: #ffc600;
-    border-color: #07294d;
-    background-color: #07294d;
+    border-color: #000;
+    background-color: #000;
 }
 
 
@@ -165,7 +165,7 @@ p {
 /*===== All Section Title Style =====*/
 
 .section-title h5{
-    color: #07294d;
+    color: #000;
     position: relative;
     padding-bottom: 12px;
 }
@@ -547,7 +547,7 @@ p {
 
 .course-slied .slick-arrow {
 	position: absolute;
-	top: -125px;
+	top: -50px;
 	right: 0;
 }
 .course-slied .prev.slick-arrow{
