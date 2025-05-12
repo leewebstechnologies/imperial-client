@@ -391,162 +391,12 @@ p {
     4. CATEGORY css 
 ======================================================*/
 
-.color-1{
-    background-color: #4886ff;
-}
-.color-2{
-    background-color: #b5d56a;
-}
-.color-3{
-    background-color: #ff6f6f;
-}
-
-.category{
-    background-color: #07294d;
-    border-radius: 10px;
-    margin-top: -150px;
-    position: relative;
-    z-index: 5;
-}
-
-.category-text{
-}
-.category-text h2{
-    font-size: 36px;
-    color: #fff;
-    padding: 0 50px;
-}
-
-.singel-category {
-	padding: 20px 0;
-	border-radius: 5px;
-	display: block;
-}
-.singel-category .icon{
-    display: inline-block;
-}
-.singel-category .cont {
-	display: block;
-}
-.singel-category .cont span{
-    color: #fff;
-    font-size: 18px;
-    padding-top: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-.category-slied{}
-.category-slied a{
-    display: block;
-}
-.category-slied .slick-arrow {
-	position: absolute;
-	top: 50%;
-	right: -50px;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-
-.category-slied .prev.slick-arrow{
-    right: auto;
-    left: -50px;
-}
-
-.category-slied .slick-arrow i{
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    border-radius: 50%;
-    background-color: #557495;
-    text-align: center;
-    font-size: 24px;
-    color: #fff;
-    cursor: pointer;
-    -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-}
-.category-slied .slick-arrow i:hover{
-    background-color: #ffc600;
-}
 
 
 
 /*=====================================================
     5. ABOUT css 
 ======================================================*/
-
-#about-part{
-    position: relative;
-    padding-bottom: 220px;
-}
-.about-bg{
-    width: 52%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -2;
-}
-.about-bg::before{
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    background: rgb(255,255,255);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(255,255,255,0)), to(rgba(255,255,255,1)));
-    background: linear-gradient(180deg, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%);
-}
-
-.about-bg img{
-    width: 100%;
-}
-
-.about-cont p{
-    padding-top: 30px;
-}
-
-.about-event{
-    -webkit-box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
-    box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
-    padding: 65px 70px 37px;
-    background-color: rgba(255, 255, 255, 0.95);
-}
-.about-event .event-title h3{
-    font-size: 36px;
-    color: #000;
-    padding-bottom: 5px;
-}
-.about-event ul li .singel-event{
-    padding: 25px 0;
-    border-bottom: 1px solid #cecece;
-}
-.about-event ul li:last-child .singel-event{
-    border-bottom: 0;
-}
-
-.about-event ul li .singel-event span{
-    font-size: 14px;
-    color: #8a8a8a;
-    margin-right: 20px;
-}
-.about-event ul li .singel-event span i{
-    color: #ffc600;
-    margin-right: 3px;
-}
-.about-event ul li .singel-event a{
-    display: block;
-}
-.about-event ul li .singel-event a h4{
-    padding-top: 5px;
-    padding-bottom: 10px;
-    color: #000;
-    font-size: 24px;
-    -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-}
-.about-event ul li .singel-event a:hover h4{
-    color: #ffc600;
-}
 
 
 
@@ -556,37 +406,7 @@ p {
 ======================================================*/
 
 
-.apply{
-    margin-top: -100px;
-    position: relative;
-}
 
-.apply-color-1{
-    background-color: #07294d;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-.apply-color-2{
-    background-color: #092e56;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.apply .apply-cont {
-    padding: 45px 50px 50px;
-}
-.apply .apply-cont h3{
-    font-size: 30px;
-    color: #fff;
-    padding-bottom: 15px;
-}
-.apply .apply-cont p{
-    color: #fff;
-    padding-bottom: 45px;
-}
-.apply .apply-cont .main-btn:hover{
-    border-color: #ffc600;
-}
 
 
 /*=====================================================

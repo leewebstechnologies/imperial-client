@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
+import Category from "./components/category/Category";
+import Ils from "./ils/page";
 
 export default function Home() {
   return (
@@ -48,12 +50,9 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-            </div>{" "}
-            {/* row */}
-          </div>{" "}
-          {/* container */}
-        </div>{" "}
-        {/* single slider */}
+            </div>
+          </div>
+        </div>
         <div
           className="single-slider bg_cover pt-150"
           style={{ backgroundImage: "url(images/slider/s-2.jpg)" }}
@@ -64,11 +63,11 @@ export default function Home() {
               <div className="col-xl-7 col-lg-9">
                 <div className="slider-cont">
                   <h1 data-animation="bounceInLeft" data-delay="1s">
-                    Choose the right theme for education
+                    Choose the right education for your child
                   </h1>
                   <p data-animation="fadeInUp" data-delay="1.3s">
-                    Our classrooms and study areas are very conducive for
-                    learning.
+                    The Imperial Legacy School programme is adapted from the
+                    curriculum guide for the United Kingdom Foundation Stage.
                   </p>
                   <ul>
                     <li>
@@ -94,12 +93,9 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-            </div>{" "}
-            {/* row */}
-          </div>{" "}
-          {/* container */}
-        </div>{" "}
-        {/* single slider */}
+            </div>
+          </div>
+        </div>
         <div
           className="single-slider bg_cover pt-150"
           style={{ backgroundImage: "url(images/slider/s-3.jpg)" }}
@@ -110,11 +106,12 @@ export default function Home() {
               <div className="col-xl-7 col-lg-9">
                 <div className="slider-cont">
                   <h1 data-animation="bounceInLeft" data-delay="1s">
-                    Choose the right theme for education
+                    2025/2026 ENROLMENT
                   </h1>
                   <p data-animation="fadeInUp" data-delay="1.3s">
-                    Our classrooms and study areas are very conducive for
-                    learning.
+                    Children may join Imperial Legacy School at any time during
+                    the academic year and do not have to wait until the start of
+                    each term.
                   </p>
                   <ul>
                     <li>
@@ -147,242 +144,9 @@ export default function Home() {
         </div>{" "}
         {/* single slider */}
       </section>
-      {/*====== SLIDER PART ENDS ======*/}
-      {/*====== CATEGORY PART START ======*/}
-      <section id="category-part">
-        <div className="container">
-          <div className="category pt-40 pb-80">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="category-text pt-40">
-                  <h2>Best platform to learn everything</h2>
-                </div>
-              </div>
-              <div className="col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-8 offset-2">
-                <div className="row category-slied mt-40">
-                  <div className="col-lg-4">
-                    <a href="#">
-                      <span className="singel-category text-center color-1">
-                        <span className="icon">
-                          <img src="images/all-icon/ctg-1.png" alt="Icon" />
-                        </span>
-                        <span className="cont">
-                          <span>Language</span>
-                        </span>
-                      </span>{" "}
-                      {/* singel category */}
-                    </a>
-                  </div>
-                  <div className="col-lg-4">
-                    <a href="#">
-                      <span className="singel-category text-center color-2">
-                        <span className="icon">
-                          <img src="images/all-icon/ctg-2.png" alt="Icon" />
-                        </span>
-                        <span className="cont">
-                          <span>Business</span>
-                        </span>
-                      </span>{" "}
-                      {/* singel category */}
-                    </a>
-                  </div>
-                  <div className="col-lg-4">
-                    <a href="#">
-                      <span className="singel-category text-center color-3">
-                        <span className="icon">
-                          <img src="images/all-icon/ctg-3.png" alt="Icon" />
-                        </span>
-                        <span className="cont">
-                          <span>Literature</span>
-                        </span>
-                      </span>{" "}
-                      {/* singel category */}
-                    </a>
-                  </div>
-                  <div className="col-lg-4">
-                    <a href="#">
-                      <span className="singel-category text-center color-1">
-                        <span className="icon">
-                          <img src="images/all-icon/ctg-1.png" alt="Icon" />
-                        </span>
-                        <span className="cont">
-                          <span>Language</span>
-                        </span>
-                      </span>{" "}
-                      {/* singel category */}
-                    </a>
-                  </div>
-                  <div className="col-lg-4">
-                    <a href="#">
-                      <span className="singel-category text-center color-2">
-                        <span className="icon">
-                          <img src="images/all-icon/ctg-2.png" alt="Icon" />
-                        </span>
-                        <span className="cont">
-                          <span>Business</span>
-                        </span>
-                      </span>{" "}
-                      {/* singel category */}
-                    </a>
-                  </div>
-                  <div className="col-lg-4">
-                    <a href="#">
-                      <span className="singel-category text-center color-3">
-                        <span className="icon">
-                          <img src="images/all-icon/ctg-3.png" alt="Icon" />
-                        </span>
-                        <span className="cont">
-                          <span>Literature</span>
-                        </span>
-                      </span>{" "}
-                      {/* singel category */}
-                    </a>
-                  </div>
-                </div>{" "}
-                {/* category slied */}
-              </div>
-            </div>{" "}
-            {/* row */}
-          </div>{" "}
-          {/* category */}
-        </div>{" "}
-        {/* container */}
-      </section>
-      {/*====== CATEGORY PART ENDS ======*/}
-      {/*====== ABOUT PART START ======*/}
-      <section id="about-part" className="pt-65">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="section-title mt-50">
-                <h5>About us</h5>
-                <h2>Welcome to Edubin </h2>
-              </div>{" "}
-              {/* section title */}
-              <div className="about-cont">
-                <p>
-                  Lorem ipsum gravida nibh vel velit auctor aliquetn
-                  sollicitudirem quibibendum auci elit cons equat ipsutis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
-                  sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio
-                  tincidunt mauris. <br /> <br /> auci elit cons equat ipsutis
-                  sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
-                  a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio
-                  tincidunt mauris
-                </p>
-                <a href="#" className="main-btn mt-55">
-                  Learn More
-                </a>
-              </div>
-            </div>{" "}
-            {/* about cont */}
-            <div className="col-lg-6 offset-lg-1">
-              <div className="about-event mt-50">
-                <div className="event-title">
-                  <h3>Upcoming events</h3>
-                </div>{" "}
-                {/* event title */}
-                <ul>
-                  <li>
-                    <div className="singel-event">
-                      <span>
-                        <i className="fa fa-calendar" /> 2 December 2018
-                      </span>
-                      <a href="events-singel.html">
-                        <h4>Campus clean workshop</h4>
-                      </a>
-                      <span>
-                        <i className="fa fa-clock-o" /> 10:00 Am - 3:00 Pm
-                      </span>
-                      <span>
-                        <i className="fa fa-map-marker" /> Rc Auditorim
-                      </span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="singel-event">
-                      <span>
-                        <i className="fa fa-calendar" /> 2 December 2018
-                      </span>
-                      <a href="events-singel.html">
-                        <h4>Tech Summit</h4>
-                      </a>
-                      <span>
-                        <i className="fa fa-clock-o" /> 10:00 Am - 3:00 Pm
-                      </span>
-                      <span>
-                        <i className="fa fa-map-marker" /> Rc Auditorim
-                      </span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="singel-event">
-                      <span>
-                        <i className="fa fa-calendar" /> 2 December 2018
-                      </span>
-                      <a href="events-singel.html">
-                        <h4>Enviroement conference</h4>
-                      </a>
-                      <span>
-                        <i className="fa fa-clock-o" /> 10:00 Am - 3:00 Pm
-                      </span>
-                      <span>
-                        <i className="fa fa-map-marker" /> Rc Auditorim
-                      </span>
-                    </div>
-                  </li>
-                </ul>
-              </div>{" "}
-              {/* about event */}
-            </div>
-          </div>{" "}
-          {/* row */}
-        </div>{" "}
-        {/* container */}
-        <div className="about-bg">
-          <img src="images/about/bg-1.png" alt="About" />
-        </div>
-      </section>
-      {/*====== ABOUT PART ENDS ======*/}
-      {/*====== APPLY PART START ======*/}
-      <section id="apply-aprt" className="pb-120">
-        <div className="container">
-          <div className="apply">
-            <div className="row no-gutters">
-              <div className="col-lg-6">
-                <div className="apply-cont apply-color-1">
-                  <h3>Apply for fall 2019</h3>
-                  <p>
-                    Gravida nibh vel velit auctor aliquetn sollicitudirem sem
-                    quibibendum auci elit cons equat ipsutis sem nibh id elituis
-                    sed odio sit amet nibh vulputate cursus equat ipsutis.
-                  </p>
-                  <a href="#" className="main-btn">
-                    Apply Now
-                  </a>
-                </div>{" "}
-                {/* apply cont */}
-              </div>
-              <div className="col-lg-6">
-                <div className="apply-cont apply-color-2">
-                  <h3>Apply for scholarship</h3>
-                  <p>
-                    Gravida nibh vel velit auctor aliquetn sollicitudirem sem
-                    quibibendum auci elit cons equat ipsutis sem nibh id elituis
-                    sed odio sit amet nibh vulputate cursus equat ipsutis.
-                  </p>
-                  <a href="#" className="main-btn">
-                    Apply Now
-                  </a>
-                </div>{" "}
-                {/* apply cont */}
-              </div>
-            </div>
-          </div>{" "}
-          {/* row */}
-        </div>{" "}
-        {/* container */}
-      </section>
+      <Category />
+
+ 
       {/*====== APPLY PART ENDS ======*/}
       {/*====== COURSE PART START ======*/}
       <section id="course-part" className="pt-115 pb-120 gray-bg">

@@ -41,6 +41,7 @@ const Navbar = () => {
               <div className="header-contact text-lg-left text-center">
                 <ul>
                   <li>
+                    <span></span>
                     <img src="images/all-icon/map.png" alt="icon" />
                     <span>
                       Plot 8 Great Imperial Estate, Off Miracle Avenue, Magboro,
