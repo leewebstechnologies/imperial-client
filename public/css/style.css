@@ -164,7 +164,6 @@ p {
 
 /*===== All Section Title Style =====*/
 
-.section-title{}
 .section-title h5{
     color: #07294d;
     position: relative;
@@ -225,7 +224,7 @@ p {
     font-weight: 600;
     padding-bottom: 50px;
 }
-.slider-cont ul {}
+
 .slider-cont ul li{
     display: inline-block;
     margin-right: 15px;
@@ -359,7 +358,7 @@ p {
 }
 
 
-.slider-feature{}
+
 .singel-slider-feature{
     display: -moz-flex;
     display: -ms-flex;
@@ -371,7 +370,7 @@ p {
     -ms-flex-align: start; 
     align-items: flex-start;
 }
-.singel-slider-feature .icon{}
+/* .singel-slider-feature .icon{} */
 .singel-slider-feature .cont{
     padding-left: 30px;
 }
@@ -518,7 +517,7 @@ p {
 
 .singel-course .course-teacher .admin{
     display: inline-block;
-    float: right;
+    /* float: right; */
     overflow: hidden;
 }
 .singel-course .course-teacher .admin ul {
@@ -545,7 +544,7 @@ p {
     margin-left: 3px;
 }
 
-.course-slied{}
+
 .course-slied .slick-arrow {
 	position: absolute;
 	top: -125px;
@@ -609,7 +608,7 @@ p {
     position: relative;
     z-index: 5;
 }
-.feature .feature-title{}
+/* .feature .feature-title{} */
 .feature .feature-title h3{
     font-size: 36px;
     color: #fff;
@@ -645,7 +644,7 @@ p {
     9. TEACHERS css 
 ======================================================*/
 
-.teachers-cont{}
+/* .teachers-cont{} */
 .teachers-cont p{
     padding-top: 30px;
 }
@@ -800,7 +799,7 @@ p {
     11. TEASTIMONIAL css 
 ======================================================*/
 
-#testimonial{}
+/* #testimonial{} */
 #testimonial .section-title{
     position: relative;
     z-index: 5;
@@ -890,8 +889,8 @@ p {
     12. NEWS css 
 ======================================================*/
 
-.singel-news{}
-.singel-news .news-thum{}
+/* .singel-news{} */
+/* .singel-news .news-thum{} */
 .singel-news .news-thum img{
     width: 100%;
     border-radius: 5px;
@@ -2128,7 +2127,7 @@ p {
     background-color: #fff;
     padding: 45px 50px;
 }
-.events-left{}
+/* .events-left{} */
 .events-left h3{
     padding-top: 5px;
 	padding-bottom: 10px;
@@ -2154,7 +2153,7 @@ p {
     padding-top: 31px;
 }
 
-.events-right{}
+/* .events-right{} */
 .events-coundwon {
     padding: 25px 30px 30px;
     border-radius: 5px;
@@ -2165,7 +2164,7 @@ p {
     position: relative;
     z-index: 5;
 }
-.events-coundwon .count-down-time .singel-count{}
+/* .events-coundwon .count-down-time .singel-count{} */
 .events-coundwon .count-down-time .singel-count .number {
 	font-size: 24px;
 	color: #ffc600;
@@ -2174,7 +2173,7 @@ p {
     font-size: 13px;
 }
 
-.events-coundwon .events-coundwon-btn{}
+/* .events-coundwon .events-coundwon-btn{} */
 .events-coundwon .events-coundwon-btn .main-btn{
     width: 100%;
 }
@@ -2310,7 +2309,7 @@ p {
     padding: 45px 0 15px;
 }
 
-.teachers-right .tab-content{}
+/* .teachers-right .tab-content{} */
 
 
 /*=====================================================
@@ -2575,7 +2574,7 @@ p {
     border-radius: 3px;
 }
 
-.shop-right{}
+/* .shop-right{} */
 .shop-right h6{
     font-size: 18px;
     padding-bottom: 5px;
@@ -2628,7 +2627,7 @@ p {
     line-height: 46px;
 }
 
-.shop-reviews .nav .nav-item{}
+/* .shop-reviews .nav .nav-item{} */
 .shop-reviews .nav .nav-item:first-child a{
     border-top-left-radius: 5px;
 }
@@ -2662,7 +2661,7 @@ p {
     padding: 0;
 }
 
-.releted-item{}
+/* .releted-item{} */
 .releted-item .title h3{
     font-size: 30px;
     color: #07294d;
