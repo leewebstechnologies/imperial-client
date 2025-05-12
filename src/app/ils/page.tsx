@@ -10,7 +10,7 @@ const Ils = () => {
             <div className="col-lg-5">
               <div className="section-title mt-50">
                 <h5>About us</h5>
-                <h2>Welcome to Edubin </h2>
+                <h2>Welcome to Imperial Legacy School</h2>
               </div>{" "}
               {/* section title */}
               <div className="about-cont">
