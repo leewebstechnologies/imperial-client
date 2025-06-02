@@ -46,7 +46,7 @@ const Discount = () => {
             <h2>Early Bird Registration</h2>
             <p>
               Enroll before <strong>June 1st</strong> and enjoy a
-              <strong>15% discount</strong> on the first term's tuition fees.
+              <strong>15% discount</strong> on the first terms tuition fees.
             </p>
             <ul>
               <li>Valid only for new enrollments</li>
