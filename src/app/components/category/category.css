@@ -60,7 +60,12 @@ transform: translateY(-50%);
   left: -50px;
 }
 
-.category-slied .slick-arrow i{
+
+@media screen and (max-width: 480px) {
+  
+}
+
+/* .category-slied .slick-arrow i{
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -75,4 +80,4 @@ transform: translateY(-50%);
 }
 .category-slied .slick-arrow i:hover{
   background-color: #ffc600;
-}
+} */

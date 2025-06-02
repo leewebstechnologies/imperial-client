@@ -11,8 +11,13 @@ const Entrance = () => {
             <h4>June 15th, 2025</h4>
           </div>
         </h3>
+        <hr />
+        <h4>
+          Please note that all Entrance Examination assessment will be taken
+          in the school premises.
+        </h4>
+        <br />
         <div className={styles.card}>
-          {/* <h1 className={styles.title}>🎓 Little Star Primary School</h1> */}
           <h2 className={styles.subtitle}>Entrance Exam Registration</h2>
           <form className={styles.form}>
             <label className={styles.label}>

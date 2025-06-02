@@ -5,7 +5,7 @@ const Admission = () => {
       <div className={styles.admission}>
         <h1 className={styles.admissionTitle}>Admission Procedure</h1>
         <p className={styles.intro}>
-          Welcome to Sunshine Primary School. We’re delighted you’re considering
+          Welcome to Imperial Legacy School. We’re delighted you’re considering
           joining our community!
         </p>
 

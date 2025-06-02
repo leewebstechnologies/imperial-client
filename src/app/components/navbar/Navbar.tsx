@@ -1,7 +1,8 @@
 import Link from "next/link";
 import "./navbar.css";
 import Image from "next/image";
-import logo from "../../images/logo1.png";
+import logo from "../../../images/logo1.png";
+import map from "../../../images/all-icon/map.png"
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
                 <ul>
                   <li>
                     <span></span>
-                    <img src="images/all-icon/map.png" alt="icon" />
+                    <Image src={map} alt="icon" width={20} height={25} />
                     <span>
                       Plot 8 Great Imperial Estate, Off Miracle Avenue, Magboro,
                       Ogun State.
@@ -179,21 +180,13 @@ const Navbar = () => {
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <Link href="/contact">BLOG</Link>
+                      <Link href="/blog">BLOG</Link>
                     </li>
                     <li className="nav-item">
                       <Link href="/contact">Contact</Link>
                     </li>
                   </ul>
-                  {/* <ul>
-                    <li className="nav-item">
-                      <Link className="student-portal" href="/contact">
-                        STUDENT&nbsp;PORTAL
-                      </Link>
-                    </li>
-                  </ul> */}
                 </div>
-
                 <div className="col-lg-4 col-md-4">
                   <div className="logo">
                     <Link className="school-portal" href="/student-portal">

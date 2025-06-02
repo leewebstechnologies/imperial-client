@@ -1,7 +1,8 @@
 import Link from "next/link";
 import "./footer.css";
 import Image from "next/image";
-import logo from "../../images/logo1.png";
+// import logo from "../../images/logo1.png";
+import logo from "../../../images/logo1.png";
 
 const Footer = () => {
   return (
@@ -56,13 +57,13 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li>
-                    <Link className="a" href="index-2.html">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="about.html">
+                    <Link className="a" href="/about">
                       <i className="fa fa-angle-right" />
                       About us
                     </Link>

@@ -41,10 +41,10 @@
   color: #ffc600;
   margin-right: 5px;
 }
-.singel-blog .blog-cont p{}
 
 
-.saidbar{}
+
+
 .saidbar .saidbar-search{
   padding: 35px;
   background-color: #fff;
@@ -127,7 +127,7 @@
   border-radius: 5px;
 }
 
-.saidbar .saidbar-post ul li a .singel-post .cont{}
+
 .saidbar .saidbar-post ul li a .singel-post .cont h6{
   font-weight: 600;
   font-size: 18px;
@@ -143,4 +143,8 @@
 .saidbar .saidbar-post ul li a .singel-post .cont span{
   font-size: 14px;
   color: #8a8a8a;
+}
+
+.blog {
+  margin: 0 auto;
 }
