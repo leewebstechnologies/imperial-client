@@ -6,7 +6,7 @@ const Discount = () => {
       <div className="card">
         <div className="hero">
           <div className="heroContent">
-            <h1>📚 School Discounts & Offers</h1>
+            <h1>School Discounts & Offers</h1>
             <p>
               We believe every child deserves access to quality education.
               Explore our range of discount opportunities tailored to families
@@ -17,7 +17,7 @@ const Discount = () => {
 
         <section className="grid">
           <div className="card">
-            <h2>🎯 Academic Merit</h2>
+            <h2>Academic Merit</h2>
             <p>
               Students who excel academically (A grade or above) in their
               previous school year may receive up to <strong>50% off</strong>
@@ -30,7 +30,7 @@ const Discount = () => {
           </div>
 
           <div className="card">
-            <h2>👨‍👩‍👧 Sibling Discount</h2>
+            <h2>Sibling Discount</h2>
             <p>
               We offer <strong>10% off</strong> for each additional sibling
               enrolled at Little Star. It is our way of supporting growing
@@ -43,7 +43,7 @@ const Discount = () => {
           </div>
 
           <div className="card">
-            <h2>⏰ Early Bird Registration</h2>
+            <h2>Early Bird Registration</h2>
             <p>
               Enroll before <strong>June 1st</strong> and enjoy a
               <strong>15% discount</strong> on the first term's tuition fees.
@@ -55,7 +55,7 @@ const Discount = () => {
           </div>
 
           <div className="card">
-            <h2>🤝 Referral Program</h2>
+            <h2>Referral Program</h2>
             <p>
               Refer another parent to our school and both of you receive a
               <strong>5% discount</strong> off your next tuition bill.
@@ -67,7 +67,7 @@ const Discount = () => {
           </div>
 
           <div className="card">
-            <h2>💼 Financial Aid Options</h2>
+            <h2>Financial Aid Options</h2>
             <p>
               We offer need-based discounts for qualifying families. All
               information is confidential and reviewed by our scholarship
