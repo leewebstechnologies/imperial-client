@@ -185,15 +185,18 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="/contact">Contact</Link>
                     </li>
+                    <li className="nav-item">
+                      <Link style={{color: "#000"}} href="/">School&nbsp;Portal</Link>
+                    </li>
                   </ul>
                 </div>
-                <div className="col-lg-4 col-md-4">
+                {/* <div className="col-lg-4 col-md-4">
                   <div className="logo">
                     <Link className="school-portal" href="/student-portal">
                       SCHOOL&nbsp;PORTAL
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </nav>
             </div>
           </div>

@@ -25,7 +25,7 @@ const Extra = () => {
                       src={index.banner}
                       alt="course"
                       width={250}
-                      height={250}
+                      height={200}
                     />
                   </div>
                 </div>

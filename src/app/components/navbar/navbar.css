@@ -329,17 +329,7 @@
 }
 
 .school-portal {
-    /* margin-left: 70px; */
-    color: #960466;
-    list-style: none;
-    padding: 5px 20px;
-    border: 1px solid #960466;
-}
-
-.school-portal:hover {
-    background-color: #960466;
-    color: #fff;
-    border: 1px solid #960466;
+  color: #000;
 }
 
 
@@ -350,22 +340,20 @@
 
 
 @media (max-width: 768px) {
-  .school-portal {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -20px;
-    padding: 5px 10px;
-    margin-bottom: 5px;
-  }
+  
 
   .logo {
     display: flex;
-    margin-top: 10px;
+    margin: 10px auto 0 auto;
   }
 
   .imperial-legacy {
     display: flex;
     align-items: center;
+  }
+
+  .navbar-toggler {
+  margin-top: 30px;
   }
 
 
