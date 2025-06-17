@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./otherservices.css";
 import { otherservicesData } from "../../data";
+import Link from "next/link";
 
 const Otherservices = () => {
   return (
@@ -13,12 +14,12 @@ const Otherservices = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 order-last order-lg-first">
             <div className="video text-lg-left text-center pt-50">
-              <a
+              <Link
                 className="Video-popup"
                 href="https://www.youtube.com/watch?v=otYpQGdsavQ"
               >
                 <i className="fa fa-play" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-5 offset-lg-1 order-first order-lg-last">
