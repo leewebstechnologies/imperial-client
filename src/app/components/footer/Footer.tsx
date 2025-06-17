@@ -191,7 +191,7 @@ const Footer = () => {
                       <i className="fa fa-envelope-o" />
                     </div>
                     <div className="cont">
-                      <p>info@imperiallegacy.com</p>
+                      <p>info@imperiallegacyschool.com</p>
                     </div>
                   </li>
                 </ul>

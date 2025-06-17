@@ -5,17 +5,17 @@ import testimonial3 from "../images/testimonial/t-3.jpg";
 // data/sliderData.js
 export const sliderData = [
   {
-    image: "images/slider/s-1.jpg",
+    image: "/images/slider/1.jpg",
     title: "CONDUCIVE ENVIRONMENT FOR LEARNING",
     text: "Our classrooms and study areas are very conducive for learning.",
   },
   {
-    image: "images/slider/s-2.jpg",
+    image: "/images/slider/2.png",
     title: "Choose the right education for your child",
     text: "The Imperial Legacy School programme is adapted from the curriculum guide for the United Kingdom Foundation Stage.",
   },
   {
-    image: "images/slider/s-3.jpg",
+    image: "/images/slider/3.jpg",
     title: "2025/2026 ENROLMENT",
     text: "Children may join Imperial Legacy School at any time during the academic year and do not have to wait until the start of each term.",
   },
@@ -84,7 +84,7 @@ export const team = [
 export const testimonialData = [
   {
     id: 1,
-    image: "/images/teachers/t-1.jpg",
+    image: "/images/teachers/silhouette.png",
     comment:
       "Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.",
     name: "Adeola Ajibade",
@@ -92,7 +92,7 @@ export const testimonialData = [
   },
   {
     id: 2,
-    image: "/images/teachers/t-1.jpg",
+    image: "/images/teachers/silhouette.png",
     comment:
       "Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.",
     name: "Adeola Ajibade",
@@ -100,7 +100,7 @@ export const testimonialData = [
   },
   {
     id: 3,
-    image: "/images/teachers/t-1.jpg",
+    image: "/images/teachers/silhouette.png",
     comment:
       "Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.",
     name: "Adeola Ajibade",
@@ -146,38 +146,33 @@ export const affiliatesData = [
 export const extraData = [
   {
     id: 1,
-    banner: "/images/course/cu-1.jpg",
-    curricular: "Music",
-    tutorImage: "/images/teachers/t-1.jpg",
-    tutorName: "Jack Jones",
+    banner: "/images/course/taekwondo.jpg",
+    curricular: "Taekwondo",
   },
   {
     id: 2,
-    banner: "/images/course/cu-2.jpg",
-    curricular: "Taekwondo",
-    tutorImage: "/images/teachers/t-1.jpg",
-    tutorName: "Jack Jones",
+    banner: "/images/course/chess.jpg",
+    curricular: "Chess",
   },
   {
     id: 3,
-    banner: "/images/course/cu-3.jpg",
-    curricular: "Ballet",
-    tutorImage: "/images/teachers/t-1.jpg",
-    tutorName: "Jack Jones",
+    banner: "/images/course/ucmas.jpeg",
+    curricular: "UCMAS",
   },
   {
     id: 4,
-    banner: "/images/course/cu-4.jpg",
-    curricular: "UC Math",
-    tutorImage: "/images/teachers/t-1.jpg",
-    tutorName: "Jack Jones",
+    banner: "/images/course/ballet.jpg",
+    curricular: "Ballet",
   },
   {
     id: 5,
-    banner: "/images/course/cu-5.jpg",
+    banner: "/images/course/music.png",
     curricular: "Music",
-    tutorImage: "/images/teachers/t-1.jpg",
-    tutorName: "Jack Jones",
+  },
+  {
+    id: 6,
+    banner: "/images/course/coding.jpg",
+    curricular: "Coding & Robotics",
   },
 ];
 
@@ -186,55 +181,43 @@ export const otherservicesData = [
     id: 1,
     image: "/images/all-icon/f-1.png",
     title: "After School Services",
-    // description:
-    //   "We offer a comprehensive After School Services Program designed to support our families with a safe, engaging, and nurturing environment for children to continue learning, playing, and growing after regular school hours.",
   },
   {
     id: 2,
     image: "/images/all-icon/f-2.png",
     title: "Weekend Childcare Service",
-    // description:
-    //   "We offer a comprehensive After School Services Program designed to support our families with a safe, engaging, and nurturing environment for children to continue learning, playing, and growing after regular school hours.",
   },
   {
     id: 3,
     image: "/images/all-icon/f-3.png",
     title: "E-library",
-    // description:
-    //   "We offer a comprehensive After School Services Program designed to support our families with a safe, engaging, and nurturing environment for children to continue learning, playing, and growing after regular school hours.",
   },
 ];
 
 export const IlsteamData = [
   {
     id: 1,
-    image: "/images/teachers/t-1.jpg",
-    name: "Daviv Mark",
-    position: "Bursar",
+    image: "/images/teachers/silhouette.png",
+    name: "Olabisi Rafiat Adisa",
+    position: "Director",
   },
   {
     id: 2,
-    image: "/images/teachers/t-2.jpg",
-    name: "Daviv Mark",
-    position: "Bursar",
+    image: "/images/teachers/silhouette.png",
+    name: "Oghenetega Precious Abikele",
+    position: "Head of Nursery",
   },
   {
     id: 3,
-    image: "/images/teachers/t-3.jpg",
-    name: "Daviv Mark",
-    position: "Bursar",
+    image: "/images/teachers/silhouette.png",
+    name: "Head of Primary",
+    position: "Wemimo Abe",
   },
   {
     id: 4,
-    image: "/images/teachers/t-4.jpg",
-    name: "Daviv Mark",
-    position: "Bursar",
-  },
-  {
-    id: 5,
-    image: "/images/teachers/t-5.jpg",
-    name: "Daviv Mark",
-    position: "Bursar",
+    image: "/images/teachers/silhouette.png",
+    name: "Head of Administration",
+    position: "Nafisat Olajumoke Bello",
   },
 ];
 

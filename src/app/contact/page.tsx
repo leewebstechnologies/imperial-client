@@ -140,23 +140,19 @@ const Contact = () => {
                       <i className="fa fa-envelope-o" />
                     </div>
                     <div className="cont">
-                      <p>info@imperiallegacy.com</p>
+                      <p>info@imperiallegacyschool.com</p>
                     </div>
                   </div>{" "}
                   {/* singel address */}
                 </li>
               </ul>
-            </div>{" "}
-            {/* contact address */}
+            </div>
             <div className="map mt-30">
               <div className="contact-map" />
-            </div>{" "}
-            {/* map */}
+            </div>
           </div>
-        </div>{" "}
-        {/* row */}
-      </div>{" "}
-      {/* container */}
+        </div>
+      </div>
     </section>
   );
 };

@@ -9,7 +9,7 @@ const Testimonial = () => {
       id="testimonial"
       className="bg_cover pt-115 pb-115"
       data-overlay={8}
-      style={{ backgroundImage: "url(images/bg-2.jpg)" }}
+      style={{ backgroundImage: "url(images/teachers/4.jpg)" }}
     >
       <div className="container">
         <div className="row">

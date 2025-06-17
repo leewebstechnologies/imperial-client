@@ -7,7 +7,7 @@ const Otherservices = () => {
     <section
       id="video-feature"
       className="bg_cover pt-60 pb-110"
-      style={{ backgroundImage: "url(images/bg-1.jpg)" }}
+      style={{ backgroundImage: "url(images/4.jpg)" }}
     >
       <div className="container">
         <div className="row align-items-center">
@@ -15,7 +15,7 @@ const Otherservices = () => {
             <div className="video text-lg-left text-center pt-50">
               <a
                 className="Video-popup"
-                href="https://www.youtube.com/watch?v=bRRtdzJH1oE"
+                href="https://www.youtube.com/watch?v=otYpQGdsavQ"
               >
                 <i className="fa fa-play" />
               </a>
