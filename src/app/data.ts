@@ -1,81 +1,97 @@
 import testimonial1 from "../images/testimonial/t-1.jpg";
 import testimonial2 from "../images/testimonial/t-2.jpg";
 import testimonial3 from "../images/testimonial/t-3.jpg";
+// import ctg1 from "../images/all-icon/alphabet.png";
+// import ctg2 from "../images/all-icon/amusement-park.png";
+// import ctg3 from "../images/all-icon/education.png";
+import t1 from "../images/teachers/t-1.jpg";
+import t2 from "../images/teachers/t-2.jpg";
+import t3 from "../images/teachers/t-3.jpg";
+import t4 from "../images/teachers/t-4.jpg";
+import silhouette from "../images/teachers/silhouette.png";
+import p1 from "../images/patnar-logo/p-1.png";
+import p2 from "../images/patnar-logo/p-2.png";
+import p3 from "../images/patnar-logo/p-3.png";
+import p4 from "../images/patnar-logo/p-4.png";
+import taekwondo from "../images/course/taekwondo.jpg";
+import chess from "../images/course/chess.jpg";
+import ucmas from "../images/course/ucmas.jpeg";
+import ballet from "../images/course/ballet.jpg";
+import music from "../images/course/music.png";
+import coding from "../images/course/coding.jpg";
+import cu1 from "../images/course/cu-1.jpg";
+import cu2 from "../images/course/cu-2.jpg";
+import cu3 from "../images/course/cu-3.jpg";
+import cu4 from "../images/course/cu-4.jpg";
+import cu5 from "../images/course/cu-5.jpg";
+import f1 from "../images/all-icon/f-1.png";
+import f2 from "../images/all-icon/f-2.png";
+import f3 from "../images/all-icon/f-3.png";
 
-// data/sliderData.js
 export const sliderData = [
   {
-    image: "/images/slider/1.jpg",
+    id: 1,
+    image: "/images/slider/1.png",
     title: "CONDUCIVE ENVIRONMENT FOR LEARNING",
     text: "Our classrooms and study areas are very conducive for learning.",
   },
   {
+    id: 2,
     image: "/images/slider/2.png",
     title: "Choose the right education for your child",
     text: "The Imperial Legacy School programme is adapted from the curriculum guide for the United Kingdom Foundation Stage.",
   },
   {
+    id: 3,
     image: "/images/slider/3.jpg",
     title: "2025/2026 ENROLMENT",
     text: "Children may join Imperial Legacy School at any time during the academic year and do not have to wait until the start of each term.",
   },
 ];
 
-export const categories = [
-  {
-    name: "Creche",
-    image: "images/all-icon/ctg-1.png",
-    colorClass: "color-1",
-  },
-  {
-    name: "Pre-school",
-    image: "images/all-icon/ctg-2.png",
-    colorClass: "color-2",
-  },
-  {
-    name: "Grade School",
-    image: "images/all-icon/ctg-3.png",
-    colorClass: "color-3",
-  },
-  {
-    name: "Language",
-    image: "images/all-icon/ctg-1.png",
-    colorClass: "color-1",
-  },
-  {
-    name: "Business",
-    image: "images/all-icon/ctg-2.png",
-    colorClass: "color-2",
-  },
-  {
-    name: "Literature",
-    image: "images/all-icon/ctg-3.png",
-    colorClass: "color-3",
-  },
-];
+// export const categories = [
+//   {
+//     id: 1,
+//     name: "Creche",
+//     image: "/images/all-icon/alphabet.png",
+//     colorClass: "color-1",
+//   },
+//   {
+//     id: 2,
+//     name: "Pre-school",
+//     image: "/images/all-icon/amusement.png",
+//     colorClass: "color-2",
+//   },
+//   {
+//     id: 3,
+//     name: "Grade School",
+//     image: "/images/all-icon/education.png",
+//     colorClass: "color-3",
+//   },
+// ];
 
 export const team = [
   {
     id: 1,
-    image: "/images/teachers/t-1.jpg",
+    image: t1,
     name: "Azeez Adeyemi",
     position: "Founder & CEO",
   },
   {
     id: 2,
-    image: "/images/teachers/t-2.jpg",
+    image: t2,
     name: "Ali Ajibade",
     position: "Head of Architecture",
   },
   {
     id: 3,
-    image: "/images/teachers/t-3.jpg",
+    image: t3,
     name: "Adedotun Ajibade",
     position: "Construction Manager",
   },
   {
     id: 4,
-    image: "/images/teachers/t-4.jpg",
+    image: t4,
     name: "Deji Adeyanju",
     position: "Construction Manager",
   },
@@ -84,7 +100,7 @@ export const team = [
 export const testimonialData = [
   {
     id: 1,
-    image: "/images/teachers/silhouette.png",
+    image: silhouette,
     comment:
       "Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.",
     name: "Adeola Ajibade",
@@ -92,7 +108,7 @@ export const testimonialData = [
   },
   {
     id: 2,
-    image: "/images/teachers/silhouette.png",
+    image: silhouette,
     comment:
       "Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.",
     name: "Adeola Ajibade",
@@ -100,7 +116,7 @@ export const testimonialData = [
   },
   {
     id: 3,
-    image: "/images/teachers/silhouette.png",
+    image: silhouette,
     comment:
       "Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.",
     name: "Adeola Ajibade",
@@ -111,67 +127,67 @@ export const testimonialData = [
 export const affiliatesData = [
   {
     id: 1,
-    image: "/images/patnar-logo/p-1.png",
+    image: p1,
   },
   {
     id: 2,
-    image: "/images/patnar-logo/p-2.png",
+    image: p2,
   },
   {
     id: 3,
-    image: "/images/patnar-logo/p-3.png",
+    image: p3,
   },
   {
     id: 4,
-    image: "/images/patnar-logo/p-4.png",
+    image: p4,
   },
   {
     id: 5,
-    image: "/images/patnar-logo/p-1.png",
+    image: p1,
   },
   {
     id: 6,
-    image: "/images/patnar-logo/p-2.png",
+    image: p2,
   },
   {
     id: 7,
-    image: "/images/patnar-logo/p-3.png",
+    image: p3,
   },
   {
     id: 8,
-    image: "/images/patnar-logo/p-4.png",
+    image: p4,
   },
 ];
 
 export const extraData = [
   {
     id: 1,
-    banner: "/images/course/taekwondo.jpg",
+    banner: taekwondo,
     curricular: "Taekwondo",
   },
   {
     id: 2,
-    banner: "/images/course/chess.jpg",
+    banner: chess,
     curricular: "Chess",
   },
   {
     id: 3,
-    banner: "/images/course/ucmas.jpeg",
+    banner: ucmas,
     curricular: "UCMAS",
   },
   {
     id: 4,
-    banner: "/images/course/ballet.jpg",
+    banner: ballet,
     curricular: "Ballet",
   },
   {
     id: 5,
-    banner: "/images/course/music.png",
+    banner: music,
     curricular: "Music",
   },
   {
     id: 6,
-    banner: "/images/course/coding.jpg",
+    banner: coding,
     curricular: "Coding & Robotics",
   },
 ];
@@ -179,17 +195,17 @@ export const extraData = [
 export const otherservicesData = [
   {
     id: 1,
-    image: "/images/all-icon/f-1.png",
+    image: f1,
     title: "After School Services",
   },
   {
     id: 2,
-    image: "/images/all-icon/f-2.png",
+    image: f2,
     title: "Weekend Childcare Service",
   },
   {
     id: 3,
-    image: "/images/all-icon/f-3.png",
+    image: f3,
     title: "E-library",
   },
 ];
@@ -197,25 +213,25 @@ export const otherservicesData = [
 export const IlsteamData = [
   {
     id: 1,
-    image: "/images/teachers/silhouette.png",
+    image: silhouette,
     name: "Olabisi Rafiat Adisa",
     position: "Director",
   },
   {
     id: 2,
-    image: "/images/teachers/silhouette.png",
+    image: silhouette,
     name: "Oghenetega Precious Abikele",
     position: "Head of Nursery",
   },
   {
     id: 3,
-    image: "/images/teachers/silhouette.png",
+    image: silhouette,
     name: "Head of Primary",
     position: "Wemimo Abe",
   },
   {
     id: 4,
-    image: "/images/teachers/silhouette.png",
+    image: silhouette,
     name: "Head of Administration",
     position: "Nafisat Olajumoke Bello",
   },
@@ -227,34 +243,34 @@ export const curricularData = [
     title: "Music",
     detail: `What is Lorem Ipsum
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-    image: "/images/course/cu-1.jpg",
+    image: cu1,
   },
   {
     id: 2,
     title: "Taekwondo",
     detail: `What is Lorem Ipsum
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-    image: "/images/course/cu-2.jpg",
+    image: cu2,
   },
   {
     id: 3,
     title: "Ballet",
     detail: `What is Lorem Ipsum
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-    image: "/images/course/cu-3.jpg",
+    image: cu3,
   },
   {
     id: 4,
     title: "UC Math",
     detail: `What is Lorem Ipsum
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-    image: "/images/course/cu-4.jpg",
+    image: cu4,
   },
   {
     id: 5,
     title: "Music",
     detail: `What is Lorem Ipsum
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-    image: "/images/course/cu-5.jpg",
+    image: cu5,
   },
 ];

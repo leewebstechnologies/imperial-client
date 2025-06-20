@@ -1,7 +1,7 @@
 import Link from "next/link";
 import "./navbar.css";
 import Image from "next/image";
-import logo from "../../../images/logo1.png";
+import logo from "../../../../public/images/logo1.png";
 import map from "../../../images/all-icon/map.png"
 
 const Navbar = () => {

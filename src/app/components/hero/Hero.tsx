@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <>
       <section id="slider-part" className="slider-active">
-        {sliderData.map((slide, index) => (
+        {sliderData.map((index) => (
           <div
-            key={index}
+            key={index.id}
             className="single-slider bg_cover pt-150"
-            style={{ backgroundImage: `url(${slide.image})` }}
+            style={{ backgroundImage: `url(${index.image})` }}
             data-overlay={4}
           >
             <div className="container">
@@ -18,10 +18,10 @@ const Hero = () => {
                 <div className="col-xl-7 col-lg-9">
                   <div className="slider-cont">
                     <h1 data-animation="bounceInLeft" data-delay="1s">
-                      {slide.title}
+                      {index.title}
                     </h1>
                     <p data-animation="fadeInUp" data-delay="1.3s">
-                      {slide.text}
+                      {index.text}
                     </p>
                     <ul>
                       <li>

@@ -1,8 +1,7 @@
 import Link from "next/link";
 import "./footer.css";
 import Image from "next/image";
-// import logo from "../../images/logo1.png";
-import logo from "../../../images/logo1.png";
+import logo from "../../../../public/images/logo1.png";
 
 const Footer = () => {
   return (
