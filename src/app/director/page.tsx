@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "./director.css";
-import director from "../../images/slider/s-3.jpg";
+import director from "../../../public/images/about/1.png";
 
 const Director = () => {
   return (
