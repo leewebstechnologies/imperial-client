@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Apply from "../components/apply/Apply";
 import "./ils.css";
+import about from "../../../public/images/about/1.png";
 
 const Ils = () => {
   return (
@@ -29,12 +31,10 @@ const Ils = () => {
             {/* about cont */}
             <div className="col-lg-7">
               <div className="about-image mt-50">
-                <img src="images/about/about-2.jpg" alt="About" />
-              </div>{" "}
-              {/* about imag */}
+                <Image src={about} alt="About" />
+              </div>
             </div>
-          </div>{" "}
-          {/* row */}
+          </div>
           <div className="about-items pt-60">
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-sm-10">
