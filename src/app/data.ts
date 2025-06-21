@@ -31,7 +31,7 @@ import f3 from "../images/all-icon/f-3.png";
 export const sliderData = [
   {
     id: 1,
-    image: "/images/slider/1.png",
+    image: "/images/slider/1.jpg",
     title: "CONDUCIVE ENVIRONMENT FOR LEARNING",
     text: "Our classrooms and study areas are very conducive for learning.",
   },
