@@ -73,25 +73,25 @@ export const sliderData = [
 export const team = [
   {
     id: 1,
-    image: t1,
+    image: silhouette,
     name: "Azeez Adeyemi",
     position: "Founder & CEO",
   },
   {
     id: 2,
-    image: t2,
+    image: silhouette,
     name: "Ali Ajibade",
     position: "Head of Architecture",
   },
   {
     id: 3,
-    image: t3,
+    image: silhouette,
     name: "Adedotun Ajibade",
     position: "Construction Manager",
   },
   {
     id: 4,
-    image: t4,
+    image: silhouette,
     name: "Deji Adeyanju",
     position: "Construction Manager",
   },
