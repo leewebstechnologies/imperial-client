@@ -1,9 +1,8 @@
 import "./blog.css";
 import Link from "next/link";
 import Image from "next/image";
-import b1 from "../../images/blog/b-1.jpg";
-import b2 from "../../images/blog/b-2.jpg";
-import b3 from "../../images/blog/b-2.jpg";
+import blogImg from "../../images/4.jpg";
+
 
 
 const Blog = () => {
@@ -15,7 +14,7 @@ const Blog = () => {
             <div className="col-lg-8">
               <div className="blog singel-blog mt-30">
                 <div className="blog-thum">
-                  <Image src={b1} alt="Blog" width={300} height={300} />
+                  <Image src={blogImg} alt="Blog" width={300} height={300} />
                 </div>
                 <div className="blog-cont">
                   <Link href="/">
@@ -52,7 +51,7 @@ const Blog = () => {
               </div>
               <div className="card singel-blog mt-30">
                 <div className="blog-thum">
-                  <Image src={b2} alt="Blog" width={300} height={300} />
+                  <Image src={blogImg} alt="Blog" width={300} height={300} />
                 </div>
                 <div className="blog-cont">
                   <a href="blog-singel.html">

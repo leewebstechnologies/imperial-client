@@ -20,7 +20,7 @@ const Category = () => {
               <div className="row category-slied mt-40">
                 <div className="col-lg-4">
                   <Link href="/preschool">
-                    <span className="singel-category text-center color-2">
+                    <span className="singel-category text-center color-1">
                       <span className="icon">
                         <Image src={alphabet} height={80} alt="Icon" />
                       </span>
