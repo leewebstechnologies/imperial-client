@@ -2,6 +2,10 @@
   position: relative;
   padding-bottom: 220px;
 }
+
+.values {
+  text-decoration: none;
+}
 .about-bg{
   width: 52%;
   position: absolute;
@@ -70,3 +74,16 @@
   color: #ffc600;
 }
 
+.elect_sport {
+  display: flex;
+ 
+ 
+}
+
+.mt {
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}

@@ -33,19 +33,19 @@ export const sliderData = [
     id: 1,
     image: "/images/slider/1.jpg",
     title: "CONDUCIVE ENVIRONMENT FOR LEARNING",
-    text: "Our classrooms and study areas are very conducive for learning.",
+    text: "Where Legacy Begins and Leaders Emerge.",
   },
   {
     id: 2,
     image: "/images/slider/2.png",
     title: "Choose the right education for your child",
-    text: "The Imperial Legacy School programme is adapted from the curriculum guide for the United Kingdom Foundation Stage.",
+    text: "Raising Thinkers, Doers, and World-Changers.",
   },
   {
     id: 3,
     image: "/images/slider/3.jpg",
     title: "2025/2026 ENROLMENT",
-    text: "Children may join Imperial Legacy School at any time during the academic year and do not have to wait until the start of each term.",
+    text: "Learning with Love, Growing with Purpose.",
   },
 ];
 
