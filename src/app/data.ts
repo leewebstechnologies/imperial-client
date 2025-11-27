@@ -102,25 +102,25 @@ export const testimonialData = [
     id: 1,
     image: silhouette,
     comment:
-      "Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.",
-    name: "Adeola Ajibade",
-    qualification: "B.sc in Accounting",
+      "Enrolling our child at this school has been the best decision we ever made. The teachers truly care, and the learning environment is safe, nurturing, and inspiring.",
+    name: "Adeola Bolarinwa",
+    qualification: "B.sc in Economics",
   },
   {
     id: 2,
     image: silhouette,
     comment:
-      "Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.",
-    name: "Adeola Ajibade",
+      "This school balances academics, discipline, and creativity perfectly. Our child has grown in confidence and skill.",
+    name: "Abiola Dosumu",
     qualification: "M.sc in Fishery",
   },
   {
     id: 3,
     image: silhouette,
     comment:
-      "Gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons vel.",
-    name: "Adeola Ajibade",
-    qualification: "Ph.D in Economics",
+      "From the moment we walked through the gates, we felt a sense of warmth and community. The teachers don’t just teach—they mentor, guide, and cheer for every child. Our daughter now looks forward to school every day, and we’ve seen remarkable improvement in her confidence and academics.",
+    name: "Mariam Ibrahim",
+    qualification: "B.sc in Computer Science",
   },
 ];
 

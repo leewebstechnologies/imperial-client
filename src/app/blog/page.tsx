@@ -54,9 +54,9 @@ const Blog = () => {
                   <Image src={blogImg} alt="Blog" width={300} height={300} />
                 </div>
                 <div className="blog-cont">
-                  <a href="blog-singel.html">
+                  <Link href="/">
                     <h3>Few tips for get better results in examination</h3>
-                  </a>
+                  </Link>
                   <ul>
                     <li>
                       <a href="#">

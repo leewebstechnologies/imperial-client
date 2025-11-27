@@ -20,28 +20,31 @@ const Footer = () => {
                   </Link>
                 </div>
                 <p>
-                  Gravida nibh vel velit auctor aliquetn quibibendum auci elit
-                  cons equat ipsutis sem nibh id elit. Duis sed odio sit amet
-                  nibh vulputate.
+                  The goal of Imperial Legacy School is to provide a holistic,
+                  high-quality education that nurtures academically sound,
+                  morally upright, confident, and globally prepared students.
+                  The school aims to build future leaders equipped with strong
+                  values, critical-thinking skills, and a love for lifelong
+                  learning.
                 </p>
                 <ul className="mt-20">
                   <li className="social-media-icons">
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="fa fa-facebook-f" />
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="icon fa-brands fa-tiktok"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="fa-brands fa-instagram"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="icon fa-brands fa-square-whatsapp"></i>
                     </Link>
                   </li>
@@ -68,19 +71,19 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="courses.html">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Courses
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="blog.html">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       News
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="events.html">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Event
                     </Link>
@@ -88,31 +91,31 @@ const Footer = () => {
                 </ul>
                 <ul>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Gallery
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="shop.html">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Shop
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="teachers.html">
+                    <Link className="a" href="/next-env.d.ts">
                       <i className="fa fa-angle-right" />
                       Teachers
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Support
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="contact.html">
+                    <Link className="a" href="/contact">
                       <i className="fa fa-angle-right" />
                       Contact
                     </Link>
@@ -128,31 +131,31 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       FAQS
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Privacy
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Policy
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Support
                     </Link>
                   </li>
                   <li>
-                    <Link className="a" href="#">
+                    <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Documentation
                     </Link>
