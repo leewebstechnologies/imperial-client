@@ -1,4 +1,3 @@
-"use server";
 import "./team.css";
 import Image from "next/image";
 import { team } from "../data";
