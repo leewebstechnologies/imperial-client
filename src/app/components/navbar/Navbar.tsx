@@ -167,7 +167,7 @@ const Navbar = () => {
                           <Link href="/preschool">PRE-SCHOOL</Link>
                         </li>
                         <li>
-                          <Link href="/elementary">ELEMENTARY</Link>
+                          <Link href="/gradeschool">GRADE SCHOOL</Link>
                         </li>
                         <li>
                           <Link href="/elibrary">E-LIBRARY</Link>
