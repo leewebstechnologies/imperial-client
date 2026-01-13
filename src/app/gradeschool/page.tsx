@@ -149,6 +149,129 @@ const Gradeschool = () => {
             personal growth:
           </p>
         </div>
+        <div className="gradeSchool">
+          <Image
+            src="/images/gradeschool/8.jpg"
+            alt="Weekly Assembly"
+            className="gradeSchoolImg"
+            width={1200}
+            height={300}
+          />
+          <h3>Weekly Electives</h3>
+          <p>
+            We are committed to developing both mind and body. Our pupils enjoy
+            weekly sports and movement activities including:
+          </p>
+          <ul>
+            <li>Taekwondo</li>
+            <li>Chess</li>
+            <li>Contemporary Dance</li>
+            <li>Ballet</li>
+            <li>Music (Orchestra)</li>
+            <li>Coding & Robotics</li>
+          </ul>
+          <p>
+            These electives run weekly and help pupils explore interests, build
+            confidence and gain new skills.
+          </p>
+        </div>
+        <div className="gradeSchool">
+          <Image
+            src="/images/gradeschool/9.jpg"
+            alt="Weekly Assembly"
+            className="gradeSchoolImg"
+            width={1200}
+            height={300}
+          />
+          <h3>Extra-Curricular Activities</h3>
+          <p>Beyond academics, we offer enriching activities such as:</p>
+          <ul>
+            <li>Arts & Crafts</li>
+            <li>Debate and Public Speaking</li>
+            <li>Spelling Bees</li>
+            <li>Storytelling & Reading Challenges</li>
+            <li>Science Explorations</li>
+            <li>Culture and International Days</li>
+            <li>School Choir & Performances</li>
+          </ul>
+          <p>
+            These promote teamwork, creativity, leadership and self-expression.
+          </p>
+        </div>
+        <div className="gradeSchool">
+          <Image
+            src="/images/gradeschool/9.jpg"
+            alt="Weekly Assembly"
+            className="gradeSchoolImg"
+            width={1200}
+            height={300}
+          />
+          <h3>Termly Educative Events</h3>
+          <p>
+            Each term, we engage pupils and parents in meaningful, interactive
+            and fun learning events such as:
+          </p>
+          <ul>
+            <li>Family Art Day</li>
+            <li>Cultural Day</li>
+            <li>Career Day</li>
+            <li>STEM Exhibitions</li>
+            <li>Spelling Competitions</li>
+            <li>Portfolio Presentation</li>
+            <li>Outdoor Learning Experiences</li>
+          </ul>
+          <p>
+            These events strengthen home–school partnership and build a vibrant
+            learning culture.
+          </p>
+        </div>
+        <div className="gradeSchool">
+          <Image
+            src="/images/gradeschool/9.jpg"
+            alt="Weekly Assembly"
+            className="gradeSchoolImg"
+            width={1200}
+            height={300}
+          />
+          <h3>Photo Gallery</h3>
+          <p>
+            Our gallery displays moments of joy, discovery and
+            achievement—including classroom activities, competitions,
+            assemblies, sports, excursions and cultural celebrations.
+          </p>
+          {/* <ul>
+            <li>Family Art Day</li>
+            <li>Cultural Day</li>
+            <li>Career Day</li>
+            <li>STEM Exhibitions</li>
+            <li>Spelling Competitions</li>
+            <li>Portfolio Presentation</li>
+            <li>Outdoor Learning Experiences</li>
+          </ul>
+          <p>
+            These events strengthen home–school partnership and build a vibrant
+            learning culture.
+          </p> */}
+        </div>
+        <div className="gradeSchool">
+          <Image
+            src="/images/gradeschool/9.jpg"
+            alt="Weekly Assembly"
+            className="gradeSchoolImg"
+            width={1200}
+            height={300}
+          />
+          <h3>Class Activity</h3>
+          <p>Each class has a dedicated page where parents can view:</p>
+          <ul>
+            <li>Weekly highlights</li>
+            <li>Learning activities and projects</li>
+            <li>Pupils’ creative work</li>
+            <li>Class celebrations</li>
+            <li>Achievements and recognitions</li>
+          </ul>
+          <p>This keeps parents closely informed and involved.</p>
+        </div>
       </section>
     </>
   );
