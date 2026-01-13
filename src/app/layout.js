@@ -6,7 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 
 export const metadata = {
-  title: "IMPERIAL LEGACY SCHOOL - BEST SCHOOL FOR WARDS",
+  title: "IMPERIAL LEGACY SCHOOL - BEST SCHOOL FOR YOUR WARDS",
   description: "Leading school in Magboro, Ibafo, Obafemi Owode Local Government, Ogun State, Nigeria",
 };
 
