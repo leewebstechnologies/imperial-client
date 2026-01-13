@@ -126,23 +126,27 @@ const Gradeschool = () => {
         </div>
         <div className="gradeSchool">
           <Image
-            src="/images/gradeschool/6.png"
+            src="/images/gradeschool/7.jpg"
             alt="Weekly Assembly"
             className="gradeSchoolImg"
             width={1200}
             height={300}
           />
-          <h3> Weekly Grooming, Assembly & Etiquette</h3>
-          <p>Homework is thoughtfully designed to:</p>
+          <h3>Sports & Extra-Curricular Activities</h3>
+          <p>
+            We are committed to developing both mind and body. Our pupils enjoy
+            weekly sports and movement activities including:
+          </p>
           <ul>
-            <li>Reinforce classroom lessons</li>
-            <li>Cultivate independence and responsibility</li>
-            <li>Strengthen literacy and numeracy foundations</li>
-            <li>Promote healthy study habits</li>
+            <li>Athletics</li>
+            <li>Ball games</li>
+            <li>Aerobics</li>
+            <li>Fitness exercises</li>
+            <li>Team sports</li>
           </ul>
           <p>
-            Assignments are age-appropriate and manageable, ensuring pupils
-            balance learning with rest and family time.
+            Our extra-curricular programme further supports talent discovery and
+            personal growth:
           </p>
         </div>
       </section>
