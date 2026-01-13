@@ -5,7 +5,6 @@ import ImageSlider from "../components/imageSlider/ImageSlider";
 const Gradeschool = () => {
   return (
     <>
-      {/* HERO SECTION */}
       <section className="hero">
         <Image
           src="/images/gradeschool/1.png"
