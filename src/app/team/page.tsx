@@ -1,5 +1,4 @@
 "use server";
-import Link from "next/link";
 import "./team.css";
 import Image from "next/image";
 import { team } from "../data";
