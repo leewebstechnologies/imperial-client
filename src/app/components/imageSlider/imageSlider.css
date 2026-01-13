@@ -4,6 +4,7 @@
   max-width: 1200px;
   margin: auto;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 /* Viewport */
@@ -24,6 +25,9 @@
   position: relative;
   min-width: 100%;
   aspect-ratio: 16 / 7;
+  border-radius: 8px;
+  overflow: hidden;
+  
 }
 
 /* Image */
