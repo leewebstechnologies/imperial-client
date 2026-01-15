@@ -29,3 +29,159 @@
   height: 3px;
   background: #6bbf59;
 }
+
+
+
+:root {
+  --primary: #1c2b3a;
+  --accent: #c8a24d;
+  --soft: #f6f7f9;
+  --dark: #0f172a;
+  --text: #2c2c2c;
+}
+
+.creche-page {
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--text);
+}
+
+/* HERO */
+.creche-hero {
+  height: 60vh;
+  background: linear-gradient(
+      rgba(15, 23, 42, 0.6),
+      rgba(15, 23, 42, 0.6)
+    ),
+    url("/images/creche-hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creche-hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.creche-hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  letter-spacing: 2px;
+}
+
+.hero-subtitle {
+  color: var(--accent);
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* SECTIONS */
+.creche-section {
+  padding: 4rem 1.2rem;
+}
+
+.soft-bg {
+  background: var(--soft);
+}
+
+.dark-bg {
+  background: var(--primary);
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.narrow {
+  max-width: 800px;
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.gold {
+  color: var(--accent);
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+/* STEPS */
+.steps-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.step-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.step-card span {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.step-card ul {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+/* PROGRAMMES */
+.program-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.program-card {
+  background: #fff;
+  padding: 1.8rem;
+  border-radius: 14px;
+  text-align: center;
+  font-weight: 500;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* GALLERY */
+.gallery-placeholder {
+  height: 260px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #eaeaea, #f5f5f5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 1.1rem;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+  .steps-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .program-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .creche-hero {
+    height: 70vh;
+  }
+}
