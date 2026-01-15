@@ -76,11 +76,11 @@ const Creche = () => {
         {/* CURRICULUM */}
         <section className="creche-section dark-bg">
           <div className="container narrow center">
-            <h2>Our Curriculum</h2>
+            <h2 style={{ color: "#fff" }}>Our Curriculum</h2>
             <p className="lead gold">
               Nurturing Genius Through Play and Discovery
             </p>
-            <p>
+            <p style={{ color: "#fff" }}>
               Our bespoke Early Years framework focuses on sensory-rich
               experiences that ignite cognitive development. By blending
               traditional British pedagogical standards with modern
