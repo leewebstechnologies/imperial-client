@@ -14,13 +14,13 @@
   position: absolute;
   top: 35%;
   left: 8%;
-  color: #fff;
 }
 
 .heroOverlay h1 {
   font-size: clamp(2rem, 4vw, 3.5rem);
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .underline {
@@ -64,7 +64,7 @@
 }
 
 .gradeSchoolImg {
-  object-fit: cover; 
+  object-fit: cover;
   border-radius: 8px;
 }
 
