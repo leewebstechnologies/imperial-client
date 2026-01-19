@@ -21,6 +21,7 @@ const Gradeschool = () => {
       </section>
 
       <section className="content">
+        <h2 className="sectionTitle">Welcome</h2>
         <p>
           Welcome to the Primary School at Imperial Legacy School, a caring,
           child-centered and inclusive learning environment where every child is
