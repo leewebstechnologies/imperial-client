@@ -125,7 +125,9 @@ const Creche = () => {
         <section className="creche-section">
           <div className="container center">
             <h2>Photo Gallery</h2>
-            <p className="subtitle">A Glimpse into a World of Care</p>
+            <h3 className="subtitle">A Glimpse into a World of Care</h3>
+            <p className="subtitle">Explore the light-filled, serene spaces where our youngest scholars begin their journey.</p>
+
 
             <div className="gallery-placeholder">Gallery Coming Soon</div>
           </div>

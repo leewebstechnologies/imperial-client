@@ -5,7 +5,8 @@ import ImageSlider from "../components/imageSlider/ImageSlider";
 const Gradeschool = () => {
   return (
     <>
-      <section className="hero">
+    <main className="gradeschool">
+         <section className="hero">
         <Image
           src="/images/gradeschool/1.png"
           alt="Elementary Classroom"
@@ -273,6 +274,9 @@ const Gradeschool = () => {
           <p>This keeps parents closely informed and involved.</p>
         </div>
       </section>
+
+    </main>
+   
     </>
   );
 };
