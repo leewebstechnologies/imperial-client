@@ -43,6 +43,7 @@
 .creche-page {
   font-family: "Inter", system-ui, sans-serif;
   color: var(--text);
+  background-color: #f0f0f0;
 }
 
 /* HERO */

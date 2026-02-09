@@ -274,3 +274,31 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     image: cu5,
   },
 ];
+
+export const extracurricularData = [
+  {
+    id: 1,
+    title: "Music",
+    content: `We believe every child should speak the universal language of music. Pupils specialise in instruments such as piano, violin or woodwind under expert instructors, developing technical mastery and emotive expression.`,
+  },
+  {
+    id: 2,
+    title: "Chess",
+    content: `Our Chess programme sharpens strategic thinking, concentration, patience and tactical brilliance — skills that extend far beyond the board.`,
+  },
+  {
+    id: 3,
+    title: "Ballet & Contemporary Dance",
+    content: `From the disciplined poise of Classical Ballet to the expressive energy of Contemporary Dance, pupils develop coordination, confidence and artistic expression.`,
+  },
+  {
+    id: 4,
+    title: "Taekwondo",
+    content: `Through professional Taekwondo training, we instil respect, perseverance and physical mastery — promoting strength under control.`,
+  },
+  {
+    id: 5,
+    title: "Coding & Robotics",
+    content: `In an increasingly digital world, pupils become creators — not just consumers — learning coding logic, robotics and engineering principles that shape the future.`,
+  },
+];

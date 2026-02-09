@@ -1,10 +1,15 @@
+"use client";
 import Link from "next/link";
 import "./navbar.css";
 import Image from "next/image";
 import logo from "../../../../public/images/logo1.png";
-import map from "../../../images/all-icon/map.png"
+import map from "../../../images/all-icon/map.png";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathname = usePathname();
+  const isActive = (path) => pathname === path;
+
   return (
     <header id="header-part">
       <div className="header-top d-none d-lg-block">
@@ -106,97 +111,125 @@ const Navbar = () => {
                 >
                   <ul className="navbar-nav ml-auto navbarItems">
                     <li className="nav-item">
-                      <Link className="active" href="/">
+                      <Link href="/" className={isActive("/") ? "active" : ""}>
                         Home
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="#">Admission</Link>
+                      <Link
+                        href="#"
+                        className={
+                          pathname.startsWith("/admission-page") ? "active" : ""
+                        }
+                      >
+                        Admission
+                      </Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link href="/admission">Admission Procedure</Link>
+                          <Link
+                            href="/admission"
+                            className={isActive("/admission") ? "active" : ""}
+                          >
+                            Admission Procedure
+                          </Link>
                         </li>
                         <li>
-                          <Link href="/tuition">Tuition & Payment</Link>
+                          <Link
+                            href="/tuition"
+                            className={isActive("/tuition") ? "active" : ""}
+                          >
+                            Tuition & Payment
+                          </Link>
                         </li>
                         <li>
-                          <Link href="/entrance">Entrance Exam</Link>
+                          <Link
+                            href="/entrance"
+                            className={isActive("/entrance") ? "active" : ""}
+                          >
+                            Entrance Exam
+                          </Link>
                         </li>
                         <li>
-                          <Link href="/discount">Scholarship / Discount</Link>
+                          <Link href="/discount" className={isActive("/discount") ? "active" : ""}>Scholarship / Discount</Link>
                         </li>
                         <li>
-                          <Link href="/application">
+                          <Link href="/application" className={isActive("/application") ? "active" : ""}>
                             Application Form / Requirement
                           </Link>
                         </li>
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <Link href="#">About&nbsp;Us</Link>
+                      <Link href="#" className={
+                          pathname.startsWith("/about") ? "active" : ""}>About&nbsp;Us</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link href="/ils">About IMPERIAL LEGACY SCHOOL</Link>
+                          <Link href="/ils" className={isActive("/ils") ? "active" : ""}>About IMPERIAL LEGACY SCHOOL</Link>
                         </li>
                         <li>
-                          <Link href="/director">Executive Director</Link>
+                          <Link href="/director" className={isActive("/director") ? "active" : ""}>Executive Director</Link>
                         </li>
                         <li>
-                          <Link href="/team">Leadership Team</Link>
+                          <Link href="/team" className={isActive("/team") ? "active" : ""}>Leadership Team</Link>
                         </li>
                         <li>
-                          <Link href="/careers">Careers</Link>
+                          <Link href="/careers" className={isActive("/careers") ? "active" : ""}>Careers</Link>
                         </li>
                         <li>
-                          <Link href="/faqs">Faqs</Link>
+                          <Link href="/faqs" className={isActive("/faqs") ? "active" : ""}>Faqs</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <Link href="#">Academics</Link>
+                      <Link href="#" className={pathname.startsWith("/academics") ? "active" : ""}>Academics</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link href="/calendar">
+                          <Link href="/calendar" className={isActive("/calendar") ? "active" : ""}>
                             KEY DATES / SCHOOL CALENDAR
                           </Link>
                         </li>
                         <li>
-                          <Link href="/creche">CRECHE</Link>
+                          <Link href="/creche" className={isActive("/creche") ? "active" : ""}>CRECHE</Link>
                         </li>
                         <li>
-                          <Link href="/preschool">PRE-SCHOOL</Link>
+                          <Link href="/preschool" className={isActive("/preschool") ? "active" : ""}>PRE-SCHOOL</Link>
                         </li>
                         <li>
-                          <Link href="/gradeschool">GRADE SCHOOL</Link>
+                          <Link href="/gradeschool" className={isActive("/gradeschool") ? "active" : ""}>GRADE SCHOOL</Link>
                         </li>
                         <li>
-                          <Link href="/elibrary">E-LIBRARY</Link>
+                          <Link href="/elibrary" className={isActive("/elibrary") ? "active" : ""}    >E-LIBRARY</Link>
                         </li>
                         <li>
-                          <Link href="/curricular">
+                          <Link href="/curricular" className={isActive("/curricular") ? "active" : ""}>
                             EXTRA-CURRICULAR ACTIVITIES
                           </Link>
                         </li>
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <Link href="/blog">BLOG</Link>
+                      <Link
+                        href="/blog"
+                        className={isActive("/blog") ? "active" : ""}
+                      >
+                        Blog
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/contact">Contact</Link>
+                      <Link
+                        href="/contact"
+                        className={isActive("/contact") ? "active" : ""}
+                      >
+                        Contact
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <Link style={{color: "#000"}} href="/">School&nbsp;Portal</Link>
+                      <Link style={{ color: "#000" }} href="/">
+                        School&nbsp;Portal
+                      </Link>
                     </li>
                   </ul>
                 </div>
-                {/* <div className="col-lg-4 col-md-4">
-                  <div className="logo">
-                    <Link className="school-portal" href="/student-portal">
-                      SCHOOL&nbsp;PORTAL
-                    </Link>
-                  </div>
-                </div> */}
               </nav>
             </div>
           </div>
