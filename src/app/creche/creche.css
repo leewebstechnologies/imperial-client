@@ -104,6 +104,33 @@ h4 {
 }
 
 /* GALLERY */
+.gallerySwiper {
+  margin-top: 40px;
+  padding-bottom: 40px; /* space for bullets */
+}
+
+.gallerySwiper .swiper-pagination {
+  position: relative;
+  margin-top: 15px;
+}
+
+.galleryImg {
+  width: 100%;
+  height: 260px;       /* keeps all images same height */
+  object-fit: cover;   /* prevents stretching */
+  border-radius: 10px;
+  display: block;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ffc600;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffc600;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

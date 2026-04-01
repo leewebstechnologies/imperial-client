@@ -133,14 +133,7 @@ const Navbar = () => {
                             Admission Procedure
                           </Link>
                         </li>
-                        <li>
-                          <Link
-                            href="/tuition"
-                            className={isActive("/tuition") ? "active" : ""}
-                          >
-                            Tuition & Payment
-                          </Link>
-                        </li>
+                       
                         <li>
                           <Link
                             href="/entrance"
@@ -149,9 +142,7 @@ const Navbar = () => {
                             Entrance Exam
                           </Link>
                         </li>
-                        <li>
-                          <Link href="/discount" className={isActive("/discount") ? "active" : ""}>Scholarship / Discount</Link>
-                        </li>
+                       
                         <li>
                           <Link href="/application" className={isActive("/application") ? "active" : ""}>
                             Application Form / Requirement

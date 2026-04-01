@@ -19,7 +19,7 @@ const Footer = () => {
                     </span>
                   </Link>
                 </div>
-                <p>
+                <p className="footerLeft">
                   The goal of Imperial Legacy School is to provide a holistic,
                   high-quality education that nurtures academically sound,
                   morally upright, confident, and globally prepared students.
@@ -57,7 +57,7 @@ const Footer = () => {
                 <div className="footer-title pb-25">
                   <h6>Sitemap</h6>
                 </div>
-                <ul>
+                <ul className="sitemap">
                   <li>
                     <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
@@ -65,55 +65,47 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
+                    <Link className="a" href="/">
+                      <i className="fa fa-angle-right" />
+                      Admission
+                    </Link>
+                  </li>
+                 
+                  <li>
+                    <Link className="a" href="/">
+                      <i className="fa fa-angle-right" />
+                      Entrance Exam
+                    </Link>
+                  </li>
+                 
+                  <li>
+                    <Link className="a" href="/">
+                      <i className="fa fa-angle-right" />
+                      Application Form
+                    </Link>
+                  </li>
+                  <li>
                     <Link className="a" href="/about">
                       <i className="fa fa-angle-right" />
-                      About us
+                      About ILS
                     </Link>
                   </li>
+
                   <li>
                     <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
-                      Courses
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="a" href="/">
-                      <i className="fa fa-angle-right" />
-                      News
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="a" href="/">
-                      <i className="fa fa-angle-right" />
-                      Event
+                      Executive Director
                     </Link>
                   </li>
                 </ul>
-                <ul>
+                <ul className="sitemap">
                   <li>
                     <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Gallery
                     </Link>
                   </li>
-                  <li>
-                    <Link className="a" href="/">
-                      <i className="fa fa-angle-right" />
-                      Shop
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="a" href="/next-env.d.ts">
-                      <i className="fa fa-angle-right" />
-                      Teachers
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="a" href="/">
-                      <i className="fa fa-angle-right" />
-                      Support
-                    </Link>
-                  </li>
+
                   <li>
                     <Link className="a" href="/contact">
                       <i className="fa fa-angle-right" />
@@ -129,35 +121,11 @@ const Footer = () => {
                 <div className="footer-title pb-25">
                   <h6>Support</h6>
                 </div>
-                <ul>
-                  <li>
-                    <Link className="a" href="/">
-                      <i className="fa fa-angle-right" />
-                      FAQS
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="a" href="/">
-                      <i className="fa fa-angle-right" />
-                      Privacy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="a" href="/">
-                      <i className="fa fa-angle-right" />
-                      Policy
-                    </Link>
-                  </li>
+                <ul className="sitemap">
                   <li>
                     <Link className="a" href="/">
                       <i className="fa fa-angle-right" />
                       Support
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="a" href="/">
-                      <i className="fa fa-angle-right" />
-                      Documentation
                     </Link>
                   </li>
                 </ul>
@@ -168,13 +136,13 @@ const Footer = () => {
                 <div className="footer-title pb-25">
                   <h6>Contact Us</h6>
                 </div>
-                <ul>
+                <ul className="address">
                   <li>
                     <div className="icon">
                       <i className="fa fa-home" />
                     </div>
                     <div className="cont">
-                      <p>
+                      <p style={{ fontWeight: "bold" }}>
                         Plot 8 Great Imperial Estate, Off Miracle Avenue,
                         Magboro, Ogun State.
                       </p>
@@ -185,7 +153,7 @@ const Footer = () => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="cont">
-                      <p>08139604432, 07074681927, 09060006230</p>
+                      <p style={{ fontWeight: "bold" }}>08139604432, 07074681927, 09060006230</p>
                     </div>
                   </li>
                   <li>
@@ -193,7 +161,7 @@ const Footer = () => {
                       <i className="fa fa-envelope-o" />
                     </div>
                     <div className="cont">
-                      <p>info@imperiallegacyschool.com</p>
+                      <p style={{ fontWeight: "bold" }}>info@imperiallegacyschool.com, imperiallegacyschool@gmail.com</p>
                     </div>
                   </li>
                 </ul>

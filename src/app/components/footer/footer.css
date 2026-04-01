@@ -109,3 +109,11 @@
 .footer-copyright .copyright p span{
     font-weight: 600;
 }
+
+.footerLeft {
+     font-weight: bold;
+}
+
+.sitemap, .address {
+    font-weight: bold;
+}

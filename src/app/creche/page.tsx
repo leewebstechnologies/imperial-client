@@ -1,5 +1,12 @@
+"use client";
 import Image from "next/image";
 import "./creche.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const Creche = () => {
   return (
@@ -63,7 +70,7 @@ const Creche = () => {
           <div>
             <h3>Our Curriculum</h3>
             <h4>Nurturing Genius Through Play and Discovery.</h4>
-            <p>
+            <p style={{ fontWeight: "bold" }}>
               Our bespoke Early Years framework focuses on sensory-rich
               experiences that ignite cognitive development. By blending
               traditional British pedagogical standards with modern
@@ -138,26 +145,60 @@ const Creche = () => {
             begin.
           </p>
 
-          <div className="gallery">
-            <Image
-              src="/images/creche/3.jpg"
-              alt=""
-              width={400}
-              height={300}
-            />
-            <Image
-              src="/images/creche/1.png"
-              alt=""
-              width={400}
-              height={300}
-            />
-            <Image
-              src="/images/creche/3.jpg"
-              alt=""
-              width={400}
-              height={300}
-            />
-          </div>
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            spaceBetween={20}
+            slidesPerView={3}
+            navigation
+            pagination={{ clickable: true }}
+            autoplay={{ delay: 3000 }}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              640: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+            className="gallerySwiper"
+          >
+            <SwiperSlide>
+              <Image
+                src="/images/creche/3.jpg"
+                alt="Creche children playing"
+                width={400}
+                height={300}
+                className="galleryImg"
+              />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <Image
+                src="/images/creche/1.png"
+                alt="Creche learning activity"
+                width={400}
+                height={300}
+                className="galleryImg"
+              />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <Image
+                src="/images/creche/3.jpg"
+                alt="Creche environment"
+                width={400}
+                height={300}
+                className="galleryImg"
+              />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <Image
+                src="/images/creche/1.png"
+                alt="Creche classroom"
+                width={400}
+                height={300}
+                className="galleryImg"
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </section>
 

@@ -27,7 +27,7 @@ const Preschool = () => {
           </h2>
           <h3 className="sectionTitle">Getting Started</h3>
           <p>
-            <strong>Your Journey Towards Academic Distinction.</strong> Entry
+            Your Journey Towards Academic Distinction. Entry
             into our Preschool marks the beginning of a rigorous yet enchanting
             academic path. At Imperial Legacy School, we uphold the tone and
             standards of a premier institution while nurturing curiosity,
@@ -41,14 +41,66 @@ const Preschool = () => {
             witness our vibrant community of young scholars in action.
           </p>
 
+          {/* CURRICULUM */}
+          <div className="gradeSection">
+            <Image
+              src="/images/pre-school/1.jpg"
+              alt="Preschool Curriculum"
+              width={1200}
+              height={350}
+              className="gradeImg"
+            />
+            <h3>Our Curriculum: A Bespoke Triad of Excellence</h3>
+            <p>
+              At the heart of our academic success is a meticulously crafted
+              blended curriculum designed for the modern, global child. We do
+              not believe in a “one size fits all” approach.
+            </p>
+            <p>
+              Montessori principles are deeply integrated to foster
+              independence, self-discipline and hands-on discovery. Our
+              environments are curated to ensure foundations built in preschool
+              are truly exceptional.
+            </p>
+            <p>
+              Literacy excellence is driven through the world-renowned
+              Jolly Phonics system, empowering pupils with
+              confident reading, language mastery and a lifelong love for
+              literature.
+            </p>
+            <p>
+              These pillars are strengthened by a traditional academic framework
+              that prepares our scholars for smooth transition into elite
+              primary schools, consistently exceeding international benchmarks.
+            </p>
+          </div>
+
+          {/* HOMEWORK */}
+          <div className="gradeSection">
+            <Image
+              src="/images/pre-school/1.jpg"
+              alt="Preschool Homework"
+              width={1200}
+              height={350}
+              className="gradeImg"
+            />
+            <h3>Homework Policy</h3>
+            <p>
+              We believe in Purposeful Extension rather than
+              repetition. Home-based tasks are meaningful and designed to engage
+              families without disrupting the essential balance of rest, play
+              and relaxation.
+            </p>
+          </div>
+
           {/* ELIGIBILITY */}
           <div className="infoBlock">
             <h3>Eligibility</h3>
             <p>
               We operate a rolling admissions policy, welcoming new talent
               throughout the academic year. Candidates are eligible for entry
-              once they have reached the age of{" "}
-              <strong>24 months (2 years)</strong>.
+              once they have reached the age of
+              24 months (2 years).
             </p>
           </div>
 
@@ -106,58 +158,6 @@ const Preschool = () => {
                 School.
               </p>
             </div>
-          </div>
-
-          {/* CURRICULUM */}
-          <div className="gradeSection">
-            <Image
-              src="/images/pre-school/1.jpg"
-              alt="Preschool Curriculum"
-              width={1200}
-              height={350}
-              className="gradeImg"
-            />
-            <h3>Our Curriculum: A Bespoke Triad of Excellence</h3>
-            <p>
-              At the heart of our academic success is a meticulously crafted
-              blended curriculum designed for the modern, global child. We do
-              not believe in a “one size fits all” approach.
-            </p>
-            <p>
-              Montessori principles are deeply integrated to foster
-              independence, self-discipline and hands-on discovery. Our
-              environments are curated to ensure foundations built in preschool
-              are truly exceptional.
-            </p>
-            <p>
-              Literacy excellence is driven through the world-renowned{" "}
-              <strong>Jolly Phonics</strong> system, empowering pupils with
-              confident reading, language mastery and a lifelong love for
-              literature.
-            </p>
-            <p>
-              These pillars are strengthened by a traditional academic framework
-              that prepares our scholars for smooth transition into elite
-              primary schools, consistently exceeding international benchmarks.
-            </p>
-          </div>
-
-          {/* HOMEWORK */}
-          <div className="gradeSection">
-            <Image
-              src="/images/pre-school/1.jpg"
-              alt="Preschool Homework"
-              width={1200}
-              height={350}
-              className="gradeImg"
-            />
-            <h3>Homework Policy</h3>
-            <p>
-              We believe in <strong>Purposeful Extension</strong> rather than
-              repetition. Home-based tasks are meaningful and designed to engage
-              families without disrupting the essential balance of rest, play
-              and relaxation.
-            </p>
           </div>
         </section>
       </main>
