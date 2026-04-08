@@ -37,25 +37,28 @@ export default function RootLayout({ children }) {
         {/* <title>IMPERIAL LEGACY SCHOOL - BEST SCHOOL FOR WARDS</title> */}
         {/*====== Favicon Icon ======*/}
         <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
-  
-        <link rel="stylesheet" href="css/slick.css" />
-       
-        <link rel="stylesheet" href="css/animate.css" />
-    
-        <link rel="stylesheet" href="css/nice-select.css" />
 
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
+        <link rel="stylesheet" href="/css/styles.css" />
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
+        <link rel="stylesheet" href="/css/slick.css" />
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
+        <link rel="stylesheet" href="/css/animate.css" />
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
+        <link rel="stylesheet" href="/css/nice-select.css" />
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="css/jquery.nice-number.min.css" />
- 
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="css/magnific-popup.css" />
-  
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="css/bootstrap.min.css" />
-
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="css/font-awesome.min.css" />
-   
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="css/default.css" />
-  
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="css/style.css" />
-   
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="css/responsive.css" />
       </head>
       <body>
