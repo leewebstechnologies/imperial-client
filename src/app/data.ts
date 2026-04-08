@@ -47,6 +47,12 @@ export const sliderData = [
     title: "2025/2026 ENROLMENT",
     text: "Learning with Love, Growing with Purpose.",
   },
+  {
+    id: 4,
+    image: "/images/slider/4.jpeg",
+    title: "CONDUCIVE ENVIRONMENT FOR LEARNING",
+    text: "Where Legacy Begins and Leaders Emerge.",
+  },
 ];
 
 // export const categories = [
