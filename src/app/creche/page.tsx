@@ -1,19 +1,15 @@
 "use client";
-import Image from "next/image";
 import "./creche.css";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 
 const Creche = () => {
   return (
     <>
       <section className="hero">
         <Image
-          src="/images/creche/banner.jpg"
+          src="/images/creche/creche_banner.jpg"
           alt="Creche Banner"
           fill
           priority
@@ -54,7 +50,7 @@ const Creche = () => {
           </div>
           <div className="image-box">
             <Image
-              src="/images/creche/3.jpg"
+              src="/images/creche/1.jpg"
               alt="Creche Admission"
               width={600}
               height={450}
@@ -81,7 +77,7 @@ const Creche = () => {
 
           <div className="image-box">
             <Image
-              src="/images/creche/1.png"
+              src="/images/creche/2.jpg"
               alt="Creche Curriculum"
               width={600}
               height={450}
@@ -136,8 +132,58 @@ const Creche = () => {
         </div>
       </section>
 
+      {/* WHY CHOOSE OUR CRECHE */}
+      <section className="creche-section light-bg">
+        <div className="container">
+          <div className="text-center">
+            <h3>Why Choose Our Crèche</h3>
+            <p className="subtitle">
+              At Imperial Legacy School, we provide a nurturing, safe, and
+              stimulating environment where your child’s early development is
+              our highest priority. Our crèche is thoughtfully designed to
+              support the physical, emotional, and cognitive growth of every
+              child in our care.
+            </p>
+          </div>
+
+          <div className="grid">
+            <div>
+              <h4>Qualified & Passionate Caregivers</h4>
+              <p>
+                We understand that infants and toddlers are at a delicate and
+                critical stage of development. That is why our crèche is staffed
+                with professionally trained and experienced caregivers who are
+                not only skilled but also genuinely passionate about working
+                with young children. Each member of our team is carefully
+                selected for their nurturing nature, patience, and dedication to
+                providing exceptional care.
+              </p>
+            </div>
+
+            <div>
+              <h4>
+                Spacious, Well-Lit Environment with Individualized Attention
+              </h4>
+              <p>
+                Our crèche facilities are designed to meet the highest
+                standards, offering spacious, well-ventilated, and well-lit
+                rooms that promote comfort and wellbeing. To ensure every child
+                receives the attention they deserve, we maintain a low
+                caregiver-to-child ratio of 1:5. This allows our caregivers to
+                provide personalized care, including timely diaper changes,
+                proper nutrition tailored to each child’s needs, and the
+                encouragement of positive habits through structured daily
+                routines such as potty training.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WEEKLY PROGRAMME */}
+
       {/* GALLERY */}
-      <section className="creche-section gallery-bg">
+      <section className="creche-section">
         <div className="container">
           <h3 className="text-center">A Glimpse into a World of Care</h3>
           <p className="text-center subtitle">
@@ -161,7 +207,7 @@ const Creche = () => {
           >
             <SwiperSlide>
               <Image
-                src="/images/creche/3.jpg"
+                src="/images/creche/c1.jpg"
                 alt="Creche children playing"
                 width={400}
                 height={300}
@@ -171,7 +217,7 @@ const Creche = () => {
 
             <SwiperSlide>
               <Image
-                src="/images/creche/1.png"
+                src="/images/creche/c2.jpg"
                 alt="Creche learning activity"
                 width={400}
                 height={300}
@@ -181,7 +227,7 @@ const Creche = () => {
 
             <SwiperSlide>
               <Image
-                src="/images/creche/3.jpg"
+                src="/images/creche/c3.jpg"
                 alt="Creche environment"
                 width={400}
                 height={300}

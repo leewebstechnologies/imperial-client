@@ -1,4 +1,7 @@
 import "./globals.css";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import "bootstrap/dist/css/bootstrap.css";
 import Script from "next/script";
 import Navbar from "./components/navbar/Navbar";
