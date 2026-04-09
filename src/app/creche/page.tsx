@@ -237,7 +237,17 @@ const Creche = () => {
 
             <SwiperSlide>
               <Image
-                src="/images/creche/1.png"
+                src="/images/creche/c4.jpg"
+                alt="Creche classroom"
+                width={400}
+                height={300}
+                className="galleryImg"
+              />
+            </SwiperSlide>
+
+             <SwiperSlide>
+              <Image
+                src="/images/creche/c5.jpg"
                 alt="Creche classroom"
                 width={400}
                 height={300}
