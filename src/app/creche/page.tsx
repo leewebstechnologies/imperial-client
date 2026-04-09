@@ -40,7 +40,7 @@ const Creche = () => {
           <div>
             <h3>Getting Started</h3>
             <h4>The First Step in a Lifetime of Excellence.</h4>
-            <p>
+            <p style={{ fontWeight: "bold" }}>
               We understand that entrusting your child to us is a gesture of
               immense trust. Our admissions process is designed to be as
               seamless and supportive as the care we provide. From your initial
@@ -91,7 +91,7 @@ const Creche = () => {
       <section className="creche-section light-bg">
         <div className="container">
           <h3 className="text-center">Weekly Grooming and Events</h3>
-          <p className="text-center subtitle">
+          <p className="text-center subtitle" style={{ fontWeight: "bold" }}>
             The Art of Early Refinement and Discovery.
           </p>
 
@@ -124,7 +124,7 @@ const Creche = () => {
       <section className="creche-section">
         <div className="container text-center">
           <h3>Learning and Development</h3>
-          <p>
+          <p style={{ fontWeight: "bold" }}>
             Our dedicated caregivers provide expert guidance to help each child
             reach developmental milestones through a nurturing partnership that
             celebrates individuality and potential.
@@ -137,7 +137,7 @@ const Creche = () => {
         <div className="container">
           <div className="text-center">
             <h3>Why Choose Our Crèche</h3>
-            <p className="subtitle">
+            <p className="subtitle" style={{ fontWeight: "bold" }}>
               At Imperial Legacy School, we provide a nurturing, safe, and
               stimulating environment where your child’s early development is
               our highest priority. Our crèche is thoughtfully designed to
@@ -149,7 +149,7 @@ const Creche = () => {
           <div className="grid">
             <div>
               <h4>Qualified & Passionate Caregivers</h4>
-              <p>
+              <p style={{ fontWeight: "bold" }}>
                 We understand that infants and toddlers are at a delicate and
                 critical stage of development. That is why our crèche is staffed
                 with professionally trained and experienced caregivers who are
@@ -164,7 +164,7 @@ const Creche = () => {
               <h4>
                 Spacious, Well-Lit Environment with Individualized Attention
               </h4>
-              <p>
+              <p style={{ fontWeight: "bold" }}>
                 Our crèche facilities are designed to meet the highest
                 standards, offering spacious, well-ventilated, and well-lit
                 rooms that promote comfort and wellbeing. To ensure every child
@@ -186,7 +186,7 @@ const Creche = () => {
       <section className="creche-section">
         <div className="container">
           <h3 className="text-center">A Glimpse into a World of Care</h3>
-          <p className="text-center subtitle">
+          <p className="text-center subtitle" style={{ fontWeight: "bold" }}>
             Explore the serene, light-filled spaces where our youngest scholars
             begin.
           </p>
@@ -266,7 +266,7 @@ const Creche = () => {
           <div className="steps">
             <div className="step">
               <h4>Step 1: The Application</h4>
-              <p>
+              <p style={{ fontWeight: "bold" }}>
                 Obtain the official application form (₦10,000) from the school
                 administrative office.
               </p>
@@ -274,7 +274,7 @@ const Creche = () => {
 
             <div className="step">
               <h4>Step 2: Documentation</h4>
-              <ul>
+              <ul style={{ fontWeight: "bold" }}>
                 <li>Birth certificate (photocopy)</li>
                 <li>Updated immunisation card</li>
                 <li>Two passport photographs of the child</li>
@@ -285,7 +285,7 @@ const Creche = () => {
 
             <div className="step">
               <h4>Step 3: Securing the Placement</h4>
-              <p>
+              <p style={{ fontWeight: "bold" }}>
                 Payment of the monthly fee secures your child’s place at
                 Imperial Legacy School Crèche.
               </p>
