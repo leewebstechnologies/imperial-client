@@ -79,134 +79,80 @@ const Gradeschool = () => {
             guidance and progressive skill development.
           </p>
         </div>
-        <div className="gradeSchool">
-          <Image
-            src="/images/gradeschool/5.jpg"
-            alt="Weekly Assembly"
-            className="gradeSchoolImg"
-            width={1200}
-            height={300}
-          />
-          <h3> Weekly Grooming, Assembly & Etiquette</h3>
-          <p>
-            Every week, pupils participate in a well-structured assembly
-            programme featuring:
-          </p>
-          <ul>
-            <li>Etiquette and moral grooming</li>
-            <li>Termly theme awareness</li>
-            <li>Facts and knowledge sessions</li>
-            <li>Public speaking and confidence-building</li>
-            <li>Songs, recitations and leadership roles</li>
-          </ul>
-          <p>
-            These help build confidence, discipline, respect and strong
-            communication skills.
-          </p>
+        <div className="sideBySideCards">
+          <div className="infoCard">
+            <h3>Weekly Grooming, Assembly & Etiquette</h3>
+            <p>Homework is thoughtfully designed to:</p>
+            <ul>
+              <li>Reinforce classroom lessons</li>
+              <li>Cultivate independence and responsibility</li>
+              <li>Strengthen literacy and numeracy foundations</li>
+              <li>Promote healthy study habits</li>
+            </ul>
+            <p>
+              Assignments are age-appropriate and manageable, ensuring pupils
+              balance learning with rest and family time.
+            </p>
+          </div>
+
+          <div className="infoCard">
+            <h3>Sports & Extra-Curricular Activities</h3>
+            <p>
+              We are committed to developing both mind and body. Our pupils enjoy
+              weekly sports and movement activities including:
+            </p>
+            <ul>
+              <li>Athletics</li>
+              <li>Ball games</li>
+              <li>Aerobics</li>
+              <li>Fitness exercises</li>
+              <li>Team sports</li>
+            </ul>
+            <p>
+              Our extra-curricular programme further supports talent discovery and
+              personal growth:
+            </p>
+          </div>
+        </div>
+        <div className="sideBySideCards">
+          <div className="infoCard">
+            <h3>Weekly Electives</h3>
+            <p>
+              Our pupils explore their interests and develop new skills through
+              our weekly electives, including:
+            </p>
+            <ul>
+              <li>Taekwondo</li>
+              <li>Chess</li>
+              <li>Contemporary Dance</li>
+              <li>Ballet</li>
+              <li>Music (Orchestra)</li>
+              <li>Coding & Robotics</li>
+            </ul>
+            <p>
+              These electives run weekly and help pupils explore interests, build
+              confidence and gain new skills.
+            </p>
+          </div>
+
+          <div className="infoCard">
+            <h3>Extra-Curricular Activities</h3>
+            <p>Beyond academics, we offer enriching activities such as:</p>
+            <ul>
+              <li>Arts & Crafts</li>
+              <li>Debate and Public Speaking</li>
+              <li>Spelling Bees</li>
+              <li>Storytelling & Reading Challenges</li>
+              <li>Science Explorations</li>
+              <li>Culture and International Days</li>
+              <li>School Choir & Performances</li>
+            </ul>
+            <p>
+              These promote teamwork, creativity, leadership and self-expression.
+            </p>
+          </div>
         </div>
         <div className="gradeSchool">
-          <Image
-            src="/images/gradeschool/6.png"
-            alt="Weekly Assembly"
-            className="gradeSchoolImg"
-            width={1200}
-            height={300}
-          />
-          <h3> Weekly Grooming, Assembly & Etiquette</h3>
-          <p>Homework is thoughtfully designed to:</p>
-          <ul>
-            <li>Reinforce classroom lessons</li>
-            <li>Cultivate independence and responsibility</li>
-            <li>Strengthen literacy and numeracy foundations</li>
-            <li>Promote healthy study habits</li>
-          </ul>
-          <p>
-            Assignments are age-appropriate and manageable, ensuring pupils
-            balance learning with rest and family time.
-          </p>
-        </div>
-        <div className="gradeSchool">
-          <Image
-            src="/images/gradeschool/7.jpg"
-            alt="Weekly Assembly"
-            className="gradeSchoolImg"
-            width={1200}
-            height={300}
-          />
-          <h3>Sports & Extra-Curricular Activities</h3>
-          <p>
-            We are committed to developing both mind and body. Our pupils enjoy
-            weekly sports and movement activities including:
-          </p>
-          <ul>
-            <li>Athletics</li>
-            <li>Ball games</li>
-            <li>Aerobics</li>
-            <li>Fitness exercises</li>
-            <li>Team sports</li>
-          </ul>
-          <p>
-            Our extra-curricular programme further supports talent discovery and
-            personal growth:
-          </p>
-        </div>
-        <div className="gradeSchool">
-          <Image
-            src="/images/gradeschool/8.jpg"
-            alt="Weekly Assembly"
-            className="gradeSchoolImg"
-            width={1200}
-            height={300}
-          />
-          <h3>Weekly Electives</h3>
-          <p>
-            We are committed to developing both mind and body. Our pupils enjoy
-            weekly sports and movement activities including:
-          </p>
-          <ul>
-            <li>Taekwondo</li>
-            <li>Chess</li>
-            <li>Contemporary Dance</li>
-            <li>Ballet</li>
-            <li>Music (Orchestra)</li>
-            <li>Coding & Robotics</li>
-          </ul>
-          <p>
-            These electives run weekly and help pupils explore interests, build
-            confidence and gain new skills.
-          </p>
-        </div>
-        <div className="gradeSchool">
-          <Image
-            src="/images/gradeschool/9.jpg"
-            alt="Weekly Assembly"
-            className="gradeSchoolImg"
-            width={1200}
-            height={300}
-          />
-          <h3>Extra-Curricular Activities</h3>
-          <p>Beyond academics, we offer enriching activities such as:</p>
-          <ul>
-            <li>Arts & Crafts</li>
-            <li>Debate and Public Speaking</li>
-            <li>Spelling Bees</li>
-            <li>Storytelling & Reading Challenges</li>
-            <li>Science Explorations</li>
-            <li>Culture and International Days</li>
-            <li>School Choir & Performances</li>
-          </ul>
-          <p>
-            These promote teamwork, creativity, leadership and self-expression.
-          </p>
-        </div>
-        <div className="gradeSchool">
-          <Image
-            src="/images/gradeschool/9.jpg"
-            alt="Weekly Assembly"
-            className="gradeSchoolImg"
-            width={1200}
-            height={300}
-          />
           <h3>Termly Educative Events</h3>
           <p>
             Each term, we engage pupils and parents in meaningful, interactive
@@ -225,53 +171,22 @@ const Gradeschool = () => {
             These events strengthen home–school partnership and build a vibrant
             learning culture.
           </p>
-        </div>
-        <div className="gradeSchool">
-          <Image
-            src="/images/gradeschool/9.jpg"
-            alt="Weekly Assembly"
-            className="gradeSchoolImg"
-            width={1200}
-            height={300}
-          />
-          <h3>Photo Gallery</h3>
-          <p>
-            Our gallery displays moments of joy, discovery and
-            achievement—including classroom activities, competitions,
-            assemblies, sports, excursions and cultural celebrations.
-          </p>
-          {/* <ul>
-            <li>Family Art Day</li>
-            <li>Cultural Day</li>
-            <li>Career Day</li>
-            <li>STEM Exhibitions</li>
-            <li>Spelling Competitions</li>
-            <li>Portfolio Presentation</li>
-            <li>Outdoor Learning Experiences</li>
-          </ul>
-          <p>
-            These events strengthen home–school partnership and build a vibrant
-            learning culture.
-          </p> */}
-        </div>
-        <div className="gradeSchool">
-          <Image
-            src="/images/gradeschool/9.jpg"
-            alt="Weekly Assembly"
-            className="gradeSchoolImg"
-            width={1200}
-            height={300}
-          />
-          <h3>Class Activity</h3>
-          <p>Each class has a dedicated page where parents can view:</p>
-          <ul>
-            <li>Weekly highlights</li>
-            <li>Learning activities and projects</li>
-            <li>Pupils’ creative work</li>
-            <li>Class celebrations</li>
-            <li>Achievements and recognitions</li>
-          </ul>
-          <p>This keeps parents closely informed and involved.</p>
+          <div className="eventImages">
+            <Image
+              src="/images/gradeschool/9.jpg"
+              alt="Termly Educative Event 1"
+              className="gradeSchoolImg"
+              width={1200}
+              height={300}
+            />
+            <Image
+              src="/images/gradeschool/8.jpg"
+              alt="Termly Educative Event 2"
+              className="gradeSchoolImg"
+              width={1200}
+              height={300}
+            />
+          </div>
         </div>
       </section>
 

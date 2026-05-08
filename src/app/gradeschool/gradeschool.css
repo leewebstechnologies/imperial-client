@@ -76,8 +76,59 @@
 .gradeSchool h3 {
   margin-top: 2rem;
 }
+
+.sideBySideCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.infoCard {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-bottom: 4px solid #ffc600;
+  transition: all 0.3s ease;
+}
+
+.infoCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.infoCard h3 {
+  margin-top: 0 !important;
+  color: #1a1a1a;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.infoCard p {
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+}
+
+.infoCard ul li {
+  font-size: 0.9rem;
+  font-weight: 500 !important;
+}
+
+.eventImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  .sideBySideCards,
+  .eventImages {
+    grid-template-columns: 1fr;
+  }
+
   .hero {
     height: 45vh;
   }
