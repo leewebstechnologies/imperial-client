@@ -8,7 +8,7 @@ const Gradeschool = () => {
     <main className="gradeschool">
          <section className="hero">
         <Image
-          src="/images/gradeschool/1.png"
+          src="/images/gradeschool/banner.jpeg"
           alt="Elementary Classroom"
           fill
           priority
@@ -173,14 +173,14 @@ const Gradeschool = () => {
           </p>
           <div className="eventImages">
             <Image
-              src="/images/gradeschool/9.jpg"
+              src="/images/gradeschool/3.jpeg"
               alt="Termly Educative Event 1"
               className="gradeSchoolImg"
               width={1200}
               height={300}
             />
             <Image
-              src="/images/gradeschool/8.jpg"
+              src="/images/gradeschool/4.jpeg"
               alt="Termly Educative Event 2"
               className="gradeSchoolImg"
               width={1200}
