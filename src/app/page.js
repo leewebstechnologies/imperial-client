@@ -20,7 +20,7 @@ export default function Home() {
       <Otherservices />
       <Ilsteam />
       <Testimonial />
-      <Affiliates />
+      {/* <Affiliates /> */}
     </>
   );
 }
