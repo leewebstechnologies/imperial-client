@@ -5,12 +5,9 @@ import Image from "next/image";
 import "./imageSlider.css";
 
 const images = [
-  "/images/gradeschool/1.jpeg",
-  "/images/gradeschool/2.jpeg",
-  "/images/gradeschool/7.jpeg",
-  "/images/gradeschool/9.jpeg",
-  "/images/gradeschool/10.jpeg",
-  "/images/gradeschool/11.jpeg",
+  "/images/gradeschool/slider1.jpeg",
+  "/images/gradeschool/slider2.jpeg",
+  "/images/gradeschool/slider3.jpeg",
 ];
 
 const ImageSlider = () => {
