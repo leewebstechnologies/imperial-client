@@ -44,7 +44,9 @@
   font-size: 1rem;
   line-height: 1.8;
   color: #333;
+  font-weight: bold;
 }
+
 
 .curriculum {
   margin-top: 2rem;
@@ -67,6 +69,11 @@
   margin-top: 3rem;
   padding-bottom: 50px;
 }
+
+.gradeSchool p {
+  font-weight: bold;
+}
+
 
 .gradeSchoolImg {
   object-fit: cover;
@@ -108,7 +115,9 @@
 .infoCard p {
   font-size: 0.95rem !important;
   line-height: 1.6 !important;
+  font-weight: bold !important;
 }
+
 
 .infoCard ul li {
   font-size: 0.9rem;

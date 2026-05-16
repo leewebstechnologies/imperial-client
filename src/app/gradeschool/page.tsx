@@ -1,6 +1,8 @@
 import Image from "next/image";
 import "./gradeschool.css";
 import ImageSlider from "../components/imageSlider/ImageSlider";
+import ImageCarousel from "../components/imageCarousel/ImageCarousel";
+
 
 const Gradeschool = () => {
   return (
@@ -101,14 +103,14 @@ const Gradeschool = () => {
 
           <div className="eventImages">
             <Image
-              src="/images/gradeschool/3.jpeg"
+              src="/images/gradeschool/sport1.jpeg"
               alt="Termly Educative Event 1"
               className="gradeSchoolImg"
               width={1200}
               height={300}
             />
             <Image
-              src="/images/gradeschool/4.jpeg"
+              src="/images/gradeschool/sport2.jpeg"
               alt="Termly Educative Event 2"
               className="gradeSchoolImg"
               width={1200}
@@ -154,7 +156,11 @@ const Gradeschool = () => {
               </p>
             </div>
           </div>
+
+          <ImageCarousel />
+
           <div className="gradeSchool">
+
             <h3>Termly Educative Events</h3>
             <p>
               Each term, we engage pupils and parents in meaningful, interactive
